@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/simulation/modelsim
+Eregister_file
+Z1 w1623398365
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+Z6 F/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+l0
+L9 1
+V@HAIEElh562XRb1S1P3b>1
+!s100 ASaL;9YUPh<CjEB?jYj>P1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1623516111
+!i10b 1
+Z9 !s108 1623516111.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl|
+Z11 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abeh
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 @HAIEElh562XRb1S1P3b>1
+!i122 0
+l30
+L24 28
+V@Ei?@Dc5nM8_Q[Ym9[C^l0
+!s100 6jzUPQ^EmCbZ^DE1k<==E2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eregister_file_tb
+Z14 w1623515474
+Z15 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R3
+R4
+!i122 1
+R0
+Z16 8/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file_tb.vhdl
+Z17 F/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file_tb.vhdl
+l0
+L10 1
+V_NHD[hmYSkzK2JInfNi;D3
+!s100 n@K0V4n8Rn;3ic<<^>X=N1
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file_tb.vhdl|
+!s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file_tb.vhdl|
+!i113 1
+R12
+R13
+Abhv
+R15
+R3
+R4
+DEx4 work 16 register_file_tb 0 22 _NHD[hmYSkzK2JInfNi;D3
+!i122 1
+l54
+L14 79
+VlQ]6H@1=aLnX`ZT4JPnNY2
+!s100 4hoEWzS_[o9ccFjz@;coU1
+R7
+32
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file_tb.vhdl|
+!i113 1
+R12
+R13

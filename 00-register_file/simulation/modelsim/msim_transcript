@@ -1,0 +1,58 @@
+vsim -i -l msim_transcript work.register_file_tb
+# vsim -i -l msim_transcript work.register_file_tb 
+# Start time: 18:42:37 on Jun 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.register_file_tb(bhv)
+# Loading ieee.numeric_std(body)
+# Loading work.register_file(beh)
+add wave -position end sim:/register_file_tb/RF/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 19:07:41 on Jun 12,2021, Elapsed time: 0:25:04
+# Errors: 0, Warnings: 5
