@@ -1,0 +1,135 @@
+# do temp_simlib_comp.tmp
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:08:06 on Jun 04,2021
+# vlog -work fiftyfivenm -vlog01compat /home/edocit/intelFPGA_lite/20.1/quartus/eda/sim_lib/mentor/fiftyfivenm_atoms_ncrypt.v 
+# 
+# Top level modules:
+# End time: 15:08:08 on Jun 04,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:08:08 on Jun 04,2021
+# vcom -work fiftyfivenm -93 /home/edocit/intelFPGA_lite/20.1/quartus/eda/sim_lib/fiftyfivenm_atoms.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Compiling package fiftyfivenm_atom_pack
+# -- Compiling package body fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_atom_pack
+# -- Compiling package fiftyfivenm_pllpack
+# -- Compiling package body fiftyfivenm_pllpack
+# -- Loading package fiftyfivenm_pllpack
+# -- Loading package fiftyfivenm_atom_pack
+# -- Compiling entity fiftyfivenm_dffe
+# -- Compiling architecture behave of fiftyfivenm_dffe
+# -- Compiling entity fiftyfivenm_mux21
+# -- Compiling architecture AltVITAL of fiftyfivenm_mux21
+# -- Compiling entity fiftyfivenm_mux41
+# -- Compiling architecture AltVITAL of fiftyfivenm_mux41
+# -- Compiling entity fiftyfivenm_and1
+# -- Compiling architecture AltVITAL of fiftyfivenm_and1
+# -- Compiling entity fiftyfivenm_lcell_comb
+# -- Compiling architecture vital_lcell_comb of fiftyfivenm_lcell_comb
+# -- Compiling entity fiftyfivenm_routing_wire
+# ** Warning: /home/edocit/intelFPGA_lite/20.1/quartus/eda/sim_lib/fiftyfivenm_atoms.vhd(1676): (vcom-1288) VITAL timing generic "tpd_datainglitch_dataout" port specification "datainglitch" does not denote a port.
+# (1076.4 section 4.3.2.1.3)
+# -- Compiling architecture behave of fiftyfivenm_routing_wire
+# -- Loading entity fiftyfivenm_and1
+# -- Compiling entity fiftyfivenm_ff
+# -- Compiling architecture vital_lcell_ff of fiftyfivenm_ff
+# -- Compiling entity fiftyfivenm_ram_register
+# -- Compiling architecture reg_arch of fiftyfivenm_ram_register
+# -- Compiling entity fiftyfivenm_ram_pulse_generator
+# -- Compiling architecture pgen_arch of fiftyfivenm_ram_pulse_generator
+# -- Loading entity fiftyfivenm_ram_register
+# -- Loading entity fiftyfivenm_ram_pulse_generator
+# -- Compiling entity fiftyfivenm_ram_block
+# -- Compiling architecture block_arch of fiftyfivenm_ram_block
+# -- Compiling entity fiftyfivenm_mac_data_reg
+# -- Compiling architecture vital_fiftyfivenm_mac_data_reg of fiftyfivenm_mac_data_reg
+# -- Compiling entity fiftyfivenm_mac_sign_reg
+# -- Compiling architecture fiftyfivenm_mac_sign_reg of fiftyfivenm_mac_sign_reg
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fiftyfivenm_mac_mult_internal
+# -- Compiling architecture vital_fiftyfivenm_mac_mult_internal of fiftyfivenm_mac_mult_internal
+# -- Loading entity fiftyfivenm_mac_data_reg
+# -- Loading entity fiftyfivenm_mac_sign_reg
+# -- Loading entity fiftyfivenm_mac_mult_internal
+# -- Compiling entity fiftyfivenm_mac_mult
+# -- Compiling architecture vital_fiftyfivenm_mac_mult of fiftyfivenm_mac_mult
+# -- Compiling entity fiftyfivenm_mac_out
+# -- Compiling architecture vital_fiftyfivenm_mac_out of fiftyfivenm_mac_out
+# -- Compiling entity fiftyfivenm_pseudo_diff_out
+# -- Compiling architecture arch of fiftyfivenm_pseudo_diff_out
+# -- Compiling entity fiftyfivenm_io_pad
+# -- Compiling architecture arch of fiftyfivenm_io_pad
+# -- Compiling entity fiftyfivenm_mn_cntr
+# -- Compiling architecture behave of fiftyfivenm_mn_cntr
+# -- Compiling entity fiftyfivenm_scale_cntr
+# -- Compiling architecture behave of fiftyfivenm_scale_cntr
+# -- Compiling entity fiftyfivenm_pll_reg
+# -- Compiling architecture behave of fiftyfivenm_pll_reg
+# -- Loading package fiftyfivenm_pllpack
+# -- Loading entity fiftyfivenm_mn_cntr
+# -- Loading entity fiftyfivenm_scale_cntr
+# -- Loading entity fiftyfivenm_dffe
+# -- Loading entity fiftyfivenm_pll_reg
+# -- Compiling entity fiftyfivenm_pll
+# -- Compiling architecture vital_pll of fiftyfivenm_pll
+# -- Compiling entity fiftyfivenm_ena_reg
+# -- Compiling architecture behave of fiftyfivenm_ena_reg
+# -- Loading entity fiftyfivenm_ena_reg
+# -- Compiling entity fiftyfivenm_clkctrl
+# -- Compiling architecture vital_clkctrl of fiftyfivenm_clkctrl
+# -- Compiling entity fiftyfivenm_io_latch
+# -- Compiling architecture behavior of fiftyfivenm_io_latch
+# -- Compiling entity fiftyfivenm_phy_clkbuf
+# -- Compiling architecture behavior of fiftyfivenm_phy_clkbuf
+# -- Compiling entity fiftyfivenm_io_clock_divider
+# -- Compiling architecture behavior of fiftyfivenm_io_clock_divider
+# -- Compiling entity fiftyfivenm_io_ibuf
+# -- Compiling architecture behavior of fiftyfivenm_io_ibuf
+# -- Compiling entity fiftyfivenm_io_obuf
+# -- Compiling architecture behavior of fiftyfivenm_io_obuf
+# -- Compiling entity fiftyfivenm_ddio_out
+# -- Compiling architecture behavior of fiftyfivenm_ddio_out
+# -- Compiling entity fiftyfivenm_ddio_oe
+# -- Compiling architecture behavior of fiftyfivenm_ddio_oe
+# -- Compiling entity fiftyfivenm_ddio_in
+# -- Compiling architecture behavior of fiftyfivenm_ddio_in
+# -- Compiling entity fiftyfivenm_unvm
+# -- Compiling architecture behavior of fiftyfivenm_unvm
+# -- Compiling entity fiftyfivenm_asmiblock
+# -- Compiling architecture behavior of fiftyfivenm_asmiblock
+# -- Compiling entity fiftyfivenm_chipidblock
+# -- Compiling architecture behavior of fiftyfivenm_chipidblock
+# -- Compiling entity fiftyfivenm_oscillator
+# -- Compiling architecture behavior of fiftyfivenm_oscillator
+# -- Compiling entity fiftyfivenm_controller
+# -- Compiling architecture behavior of fiftyfivenm_controller
+# -- Compiling entity fiftyfivenm_crcblock
+# -- Compiling architecture behavior of fiftyfivenm_crcblock
+# -- Compiling entity fiftyfivenm_rublock
+# -- Compiling architecture behavior of fiftyfivenm_rublock
+# -- Compiling entity fiftyfivenm_jtag
+# -- Compiling architecture behavior of fiftyfivenm_jtag
+# -- Compiling entity fiftyfivenm_adcblock
+# -- Compiling architecture behavior of fiftyfivenm_adcblock
+# -- Compiling entity fiftyfivenm_phase_detector
+# -- Compiling architecture behavior of fiftyfivenm_phase_detector
+# End time: 15:08:08 on Jun 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:08:08 on Jun 04,2021
+# vcom -work fiftyfivenm -93 /home/edocit/intelFPGA_lite/20.1/quartus/eda/sim_lib/fiftyfivenm_components.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Compiling package fiftyfivenm_components
+# End time: 15:08:08 on Jun 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

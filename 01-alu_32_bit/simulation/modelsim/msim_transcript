@@ -1,0 +1,376 @@
+vsim -i -l msim_transcript work.alu_32_bit_tb
+# vsim -i -l msim_transcript work.alu_32_bit_tb 
+# Start time: 16:11:22 on Jun 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.alu_32_bit_tb(bhv)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu_32_bit(bhv)
+add wave -position end sim:/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -i -l msim_transcript work.alu_32_bit_tb
+# End time: 16:26:45 on Jun 18,2021, Elapsed time: 0:15:23
+# Errors: 0, Warnings: 4
+# vsim -i -l msim_transcript work.alu_32_bit_tb 
+# Start time: 16:26:45 on Jun 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.alu_32_bit_tb(bhv)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu_32_bit(bhv)
+run
+add wave -position end sim:/alu_32_bit_tb/*
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful with warnings.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful with warnings.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+restart -f
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of alu_32_bit.vhd was successful.
+# Compile of alu_32_bit_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.alu_32_bit_tb(bhv)
+# Loading work.alu_32_bit(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 17:35:54 on Jun 18,2021, Elapsed time: 1:09:09
+# Errors: 0, Warnings: 1
