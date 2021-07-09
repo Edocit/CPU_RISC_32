@@ -1,0 +1,54 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/simulation/modelsim
+Eram
+Z1 w1625816179
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl
+Z6 F/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl
+l0
+L8 1
+VAYgb>85lOz]cW]CKFoKeH3
+!s100 L_5zmLJIzTXbeUlJiz;0N2
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1625816512
+!i10b 1
+Z9 !s108 1625816512.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl|
+!s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+DEx4 work 3 ram 0 22 AYgb>85lOz]cW]CKFoKeH3
+!i122 0
+l31
+L21 39
+VQVUBc^@UJ[:7hAll<zN`H0
+!s100 oic=1]Ge>G_LYHF^R@7z32
+R7
+31
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl|
+!i113 1
+R11
+R12

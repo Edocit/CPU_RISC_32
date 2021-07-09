@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ram_clk'
+Slack : -11.540
+TNS   : -29002.016
+
+Type  : Slow 1200mV 85C Model Setup 'cnt[0]'
+Slack : -2.238
+TNS   : -50.905
+
+Type  : Slow 1200mV 85C Model Hold 'cnt[0]'
+Slack : -1.282
+TNS   : -5.536
+
+Type  : Slow 1200mV 85C Model Hold 'ram_clk'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'ram_clk'
+Slack : -6.256
+TNS   : -401.242
+
+Type  : Slow 1200mV 85C Model Removal 'ram_clk'
+Slack : 1.377
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ram_clk'
+Slack : -3.000
+TNS   : -5762.315
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cnt[0]'
+Slack : 0.446
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ram_clk'
+Slack : -10.725
+TNS   : -26953.325
+
+Type  : Slow 1200mV 0C Model Setup 'cnt[0]'
+Slack : -2.134
+TNS   : -48.509
+
+Type  : Slow 1200mV 0C Model Hold 'cnt[0]'
+Slack : -1.076
+TNS   : -4.603
+
+Type  : Slow 1200mV 0C Model Hold 'ram_clk'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'ram_clk'
+Slack : -5.608
+TNS   : -363.723
+
+Type  : Slow 1200mV 0C Model Removal 'ram_clk'
+Slack : 1.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ram_clk'
+Slack : -3.000
+TNS   : -5762.315
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cnt[0]'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ram_clk'
+Slack : -4.397
+TNS   : -9543.246
+
+Type  : Fast 1200mV 0C Model Setup 'cnt[0]'
+Slack : -0.490
+TNS   : -8.070
+
+Type  : Fast 1200mV 0C Model Hold 'cnt[0]'
+Slack : -0.709
+TNS   : -3.222
+
+Type  : Fast 1200mV 0C Model Hold 'ram_clk'
+Slack : -0.181
+TNS   : -0.646
+
+Type  : Fast 1200mV 0C Model Recovery 'ram_clk'
+Slack : -2.398
+TNS   : -143.762
+
+Type  : Fast 1200mV 0C Model Removal 'ram_clk'
+Slack : 0.688
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ram_clk'
+Slack : -3.000
+TNS   : -4220.199
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cnt[0]'
+Slack : 0.301
+TNS   : 0.000
+
+------------------------------------------------------------

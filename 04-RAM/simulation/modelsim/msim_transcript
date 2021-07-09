@@ -1,0 +1,53 @@
+vsim -i -l msim_transcript ram.ram_tb
+# vsim -i -l msim_transcript ram.ram_tb 
+# Start time: 09:42:22 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.numeric_std(body)
+# Loading ram.ram_tb(bhv)
+# Loading ram.ram(bhv)
+add wave -position end sim:/ram_tb/*
+add wave -position end sim:/ram_tb/RAM_UNIT/*
+add wave -position 2 sim:/ram_tb/d_PROCESS/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of RAM.vhdl was successful.
+# Compile of RAM_TB.vhdl was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading ram.ram_tb(bhv)
+# Loading ram.ram(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 09:46:14 on Jul 09,2021, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 1

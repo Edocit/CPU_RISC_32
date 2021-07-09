@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/simulation/modelsim
+Eram
+Z1 w1625816179
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z5 8/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl
+Z6 F/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl
+l0
+L8 1
+VI[cc@0<:SWJRmME^>0c243
+!s100 L_5zmLJIzTXbeUlJiz;0N2
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1625816668
+!i10b 1
+Z9 !s108 1625816668.000000
+Z10 !s90 -reportprogress|300|-work|ram|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl|
+Z11 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM.vhdl|
+!i113 1
+Z12 o-work ram -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+DEx4 work 3 ram 0 22 I[cc@0<:SWJRmME^>0c243
+!i122 2
+l31
+L21 39
+V]lUACT7z`LgkA7@]h8DKE3
+!s100 oic=1]Ge>G_LYHF^R@7z32
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eram_tb
+Z14 w1625816658
+R2
+Z15 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R3
+R4
+!i122 3
+R0
+Z16 8/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM_TB.vhdl
+Z17 F/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM_TB.vhdl
+l0
+L11 1
+VMmaHV??gH@@^h?^kMbh;R2
+!s100 9cX5`NDDIKX6NJN0kmED>0
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|ram|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM_TB.vhdl|
+Z19 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/04-RAM/RAM_TB.vhdl|
+!i113 1
+R12
+R13
+Abhv
+R2
+R15
+R3
+R4
+Z20 DEx4 work 6 ram_tb 0 22 MmaHV??gH@@^h?^kMbh;R2
+!i122 3
+l53
+Z21 L15 77
+VTGiI;m^lNLFYY@Njmm9D00
+!s100 <<QIVzV=iO[DbE^:G<KUU0
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13

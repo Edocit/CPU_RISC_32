@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Jul  9 09:36:44 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : 03-RAM
+Top-level Entity Name : RAM
+Family : MAX 10
+Total logic elements : 7,391
+    Total combinational functions : 3,367
+    Dedicated logic registers : 4,105
+Total registers : 4105
+Total pins : 99
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
