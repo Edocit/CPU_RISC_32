@@ -1,0 +1,22 @@
+vsim -i -l msim_transcript REG_SIM_UNIT.register32_tb
+# vsim -i -l msim_transcript REG_SIM_UNIT.register32_tb 
+# Start time: 22:46:55 on Jul 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading REG_SIM_UNIT.register32_tb(bhv)
+# Loading REG_SIM_UNIT.register32(bhv)
+add wave -position end sim:/register32_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+# End time: 22:51:36 on Jul 15,2021, Elapsed time: 0:04:41
+# Errors: 0, Warnings: 5

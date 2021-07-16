@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/Register/simulation/modelsim
+Eregister32
+Z1 w1624462431
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32.vhd
+Z5 F/home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32.vhd
+l0
+L7 1
+VICcN`j>:i]nfhba=UBfGF2
+!s100 DY^>b7gfof3n0e=gJ0@^b0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1626382007
+!i10b 1
+Z8 !s108 1626382006.000000
+Z9 !s90 -reportprogress|300|-work|REG_SIM_UNIT|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32.vhd|
+Z10 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32.vhd|
+!i113 1
+Z11 o-work REG_SIM_UNIT -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+DEx4 work 10 register32 0 22 ICcN`j>:i]nfhba=UBfGF2
+!i122 0
+l20
+L17 14
+V_UEecJOiJ0E<5:8a7A7aA3
+!s100 k_lb5A5aACXU63CR4;[3=3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eregister32_tb
+Z13 w1626381919
+Z14 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R2
+R3
+!i122 1
+R0
+Z15 8/home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32_tb.vhd
+Z16 F/home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32_tb.vhd
+l0
+L13 1
+V2VcCS0Te6gKh:724lD[N51
+!s100 1oX8oOiE4Ffjed^^2_LHN0
+R6
+32
+R7
+!i10b 1
+Z17 !s108 1626382007.000000
+Z18 !s90 -reportprogress|300|-work|REG_SIM_UNIT|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32_tb.vhd|
+!s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32_tb.vhd|
+!i113 1
+R11
+R12
+Abhv
+R14
+R2
+R3
+DEx4 work 13 register32_tb 0 22 2VcCS0Te6gKh:724lD[N51
+!i122 1
+l50
+L17 68
+V=<OYlD=L0VC6TFSYE2S@93
+!s100 P<iPbmVVaQU?Vgjj`D0>U1
+R6
+32
+R7
+!i10b 1
+R17
+R18
+Z19 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/Register/register32_tb.vhd|
+!i113 1
+R11
+R12

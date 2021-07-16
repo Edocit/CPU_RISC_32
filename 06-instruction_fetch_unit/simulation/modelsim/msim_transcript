@@ -1,0 +1,64 @@
+# do instruction_fetch_unit_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/edocit/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:50:27 on Jul 16,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity REGISTER32
+# -- Compiling architecture BHV of REGISTER32
+# End time: 15:50:27 on Jul 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:50:27 on Jul 16,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity PROGRAM_COUNTER_32_BIT
+# -- Compiling architecture BHV of PROGRAM_COUNTER_32_BIT
+# End time: 15:50:27 on Jul 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:50:27 on Jul 16,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture BHV of RAM
+# End time: 15:50:27 on Jul 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/06-instruction_fetch_unit/instruction_fetch_unit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:50:27 on Jul 16,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/06-instruction_fetch_unit/instruction_fetch_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity INSTRUCTION_FETCH_UNIT
+# -- Compiling architecture BHV of INSTRUCTION_FETCH_UNIT
+# End time: 15:50:27 on Jul 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+# Loading project instruction_fetch_unit_sim

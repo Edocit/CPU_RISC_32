@@ -1,0 +1,166 @@
+# Compile of instruction_fetch_unit.vhd was successful.
+# Compile of instruction_fetch_unit_tb.vhdl was successful.
+# Compile of RAM.vhdl was successful.
+# Compile of program_counter_32_bit.vhdl was successful.
+# Compile of register32.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim IFU_Instruction_Fetch_Unit.instruction_fetch_unit_tb
+# vsim IFU_Instruction_Fetch_Unit.instruction_fetch_unit_tb 
+# Start time: 15:52:23 on Jul 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit_tb(bhv)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.program_counter_32_bit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.register32(bhv)
+# Loading ieee.numeric_std(body)
+# Loading IFU_Instruction_Fetch_Unit.ram(bhv)
+add wave -position end sim:/instruction_fetch_unit_tb/*
+add wave -position end sim:/instruction_fetch_unit_tb/IFU/RAM_M/*
+add wave -position 3 sim:/instruction_fetch_unit_tb/d_PROCESS/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of instruction_fetch_unit.vhd was successful.
+# Compile of instruction_fetch_unit_tb.vhdl was successful.
+# Compile of RAM.vhdl was successful.
+# Compile of program_counter_32_bit.vhdl was successful.
+# Compile of register32.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit_tb(bhv)
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.program_counter_32_bit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.register32(bhv)
+# Loading IFU_Instruction_Fetch_Unit.ram(bhv)
+run -continue
+# Compile of instruction_fetch_unit.vhd was successful.
+# Compile of instruction_fetch_unit_tb.vhdl failed with 2 errors.
+# Compile of RAM.vhdl was successful.
+# Compile of program_counter_32_bit.vhdl was successful.
+# Compile of register32.vhd was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of instruction_fetch_unit.vhd was successful.
+# Compile of instruction_fetch_unit_tb.vhdl was successful.
+# Compile of RAM.vhdl was successful.
+# Compile of program_counter_32_bit.vhdl was successful.
+# Compile of register32.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit_tb(bhv)
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.program_counter_32_bit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.register32(bhv)
+# Loading IFU_Instruction_Fetch_Unit.ram(bhv)
+run -continue
+run
+run
+run
+run
+run
+add wave -position end sim:/instruction_fetch_unit_tb/IFU/PC/*
+# Compile of instruction_fetch_unit.vhd was successful.
+# Compile of instruction_fetch_unit_tb.vhdl was successful.
+# Compile of RAM.vhdl was successful.
+# Compile of program_counter_32_bit.vhdl was successful.
+# Compile of register32.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit_tb(bhv)
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.program_counter_32_bit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.register32(bhv)
+# Loading IFU_Instruction_Fetch_Unit.ram(bhv)
+run -continue
+run
+run
+run
+run
+run
+run
+add wave -position 12 sim:/instruction_fetch_unit_tb/IFU/MAR/*
+restart -f
+run -continue
+run -continue
+# Compile of instruction_fetch_unit.vhd was successful.
+# Compile of instruction_fetch_unit_tb.vhdl was successful.
+# Compile of RAM.vhdl was successful.
+# Compile of program_counter_32_bit.vhdl was successful.
+# Compile of register32.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit_tb(bhv)
+# Loading IFU_Instruction_Fetch_Unit.instruction_fetch_unit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.program_counter_32_bit(bhv)
+# Loading IFU_Instruction_Fetch_Unit.register32(bhv)
+# Loading IFU_Instruction_Fetch_Unit.ram(bhv)
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 16:28:11 on Jul 16,2021, Elapsed time: 0:35:48
+# Errors: 0, Warnings: 1

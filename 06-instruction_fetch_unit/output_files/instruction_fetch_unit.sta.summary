@@ -1,0 +1,173 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -13.488
+TNS   : -32327.667
+
+Type  : Slow 1200mV 85C Model Setup 'wr_en_ir'
+Slack : -11.640
+TNS   : -312.623
+
+Type  : Slow 1200mV 85C Model Setup 'RAM:RAM_M|cnt[0]'
+Slack : -2.415
+TNS   : -58.510
+
+Type  : Slow 1200mV 85C Model Setup 'wr_en_mar'
+Slack : -1.260
+TNS   : -8.505
+
+Type  : Slow 1200mV 85C Model Hold 'RAM:RAM_M|cnt[0]'
+Slack : -1.515
+TNS   : -2.946
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.545
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'wr_en_mar'
+Slack : 0.712
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'wr_en_ir'
+Slack : 0.758
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -7.071
+TNS   : -422.823
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 1.276
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -5780.554
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'wr_en_ir'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'wr_en_mar'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RAM:RAM_M|cnt[0]'
+Slack : 0.410
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -12.375
+TNS   : -29656.227
+
+Type  : Slow 1200mV 0C Model Setup 'wr_en_ir'
+Slack : -10.875
+TNS   : -291.027
+
+Type  : Slow 1200mV 0C Model Setup 'RAM:RAM_M|cnt[0]'
+Slack : -2.258
+TNS   : -54.888
+
+Type  : Slow 1200mV 0C Model Setup 'wr_en_mar'
+Slack : -1.137
+TNS   : -7.682
+
+Type  : Slow 1200mV 0C Model Hold 'RAM:RAM_M|cnt[0]'
+Slack : -1.312
+TNS   : -2.543
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.502
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'wr_en_mar'
+Slack : 0.707
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'wr_en_ir'
+Slack : 0.744
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -6.482
+TNS   : -384.677
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 0.987
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -5780.554
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'wr_en_ir'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'wr_en_mar'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RAM:RAM_M|cnt[0]'
+Slack : 0.328
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -6.029
+TNS   : -14116.659
+
+Type  : Fast 1200mV 0C Model Setup 'wr_en_ir'
+Slack : -4.453
+TNS   : -116.631
+
+Type  : Fast 1200mV 0C Model Setup 'RAM:RAM_M|cnt[0]'
+Slack : -0.625
+TNS   : -11.938
+
+Type  : Fast 1200mV 0C Model Setup 'wr_en_mar'
+Slack : 0.041
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'RAM:RAM_M|cnt[0]'
+Slack : -0.759
+TNS   : -1.489
+
+Type  : Fast 1200mV 0C Model Hold 'wr_en_ir'
+Slack : -0.176
+TNS   : -0.176
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.087
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'wr_en_mar'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : -2.611
+TNS   : -152.282
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.661
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -4232.123
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'wr_en_ir'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'wr_en_mar'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RAM:RAM_M|cnt[0]'
+Slack : 0.328
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,10 @@
+/home/edocit/Documenti/AUGC/CPU_RISC_32/02-program_counter/program_counter_32_tb.vhdl {1 {vcom -work pc_sim -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/02-program_counter/program_counter_32_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Compiling entity PROGRAM_COUNTER_32_TB
+-- Compiling architecture BHV of PROGRAM_COUNTER_32_TB
+
+} {} {}}
