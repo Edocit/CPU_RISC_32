@@ -1,0 +1,18 @@
+/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl {1 {vcom -work mux -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MUX
+-- Compiling architecture BHV of MUX
+
+} {} {}} /home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX_TB.vhdl {1 {vcom -work mux -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX_TB.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Compiling entity MUX_TB
+-- Compiling architecture BHV of MUX_TB
+
+} {} {}}

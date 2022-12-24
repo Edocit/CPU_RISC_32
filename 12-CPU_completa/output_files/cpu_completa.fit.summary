@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sat Oct 22 17:36:41 2022
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : cpu_completa
+Top-level Entity Name : CPU
+Family : MAX 10
+Device : 10M08DAF484C8G
+Timing Models : Final
+Total logic elements : 1 / 8,064 ( < 1 % )
+    Total combinational functions : 1 / 8,064 ( < 1 % )
+    Dedicated logic registers : 0 / 8,064 ( 0 % )
+Total registers : 0
+Total pins : 3 / 250 ( 1 % )
+Total virtual pins : 0
+Total memory bits : 0 / 387,072 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

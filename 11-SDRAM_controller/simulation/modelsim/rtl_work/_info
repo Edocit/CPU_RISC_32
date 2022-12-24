@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/simulation/modelsim
+Erefresh_counter
+Z1 w1627666520
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl
+Z6 F/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl
+l0
+L9 1
+V34BGeeYUlTc3YC[T^NP>33
+!s100 L>:j6^PXA^6E2h2oQbjWO0
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1627668126
+!i10b 1
+Z9 !s108 1627668126.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl|
+!s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+DEx4 work 15 refresh_counter 0 22 34BGeeYUlTc3YC[T^NP>33
+!i122 1
+l23
+L19 27
+VLN44X370BzHVN:D27PCD>2
+!s100 0MVM1QIe2fLB]IXSVH6RY1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+Z13 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl|
+!i113 1
+R11
+R12
+Esdram_controller
+Z14 w1627668081
+R2
+R3
+R4
+!i122 0
+R0
+Z15 8/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller.vhdl
+Z16 F/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller.vhdl
+l0
+L10 1
+V<mZAkOa[hKW;4V6;DTfnA1
+!s100 KW9QZVbn9fh77^5Qa[6W]2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller.vhdl|
+Z18 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R2
+R3
+R4
+DEx4 work 16 sdram_controller 0 22 <mZAkOa[hKW;4V6;DTfnA1
+!i122 0
+l56
+L36 38
+V^l=QGBQ_LbFPlA[k6T_@:2
+!s100 H7l9Am^2cYhmoK_Bb=DA92
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R11
+R12

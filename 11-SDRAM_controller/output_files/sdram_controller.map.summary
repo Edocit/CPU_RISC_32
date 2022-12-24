@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sun Aug  1 17:44:45 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : sdram_controller
+Top-level Entity Name : SDRAM_CONTROLLER
+Family : MAX 10
+Total logic elements : 318
+    Total combinational functions : 302
+    Dedicated logic registers : 115
+Total registers : 115
+Total pins : 87
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,109 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/simulation/modelsim
+Ehard_block
+Z1 w1627654035
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 ]LY<>e3?`4Wb8dl1GV_X90
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 `f]nQdYHZLbCG_>oYeZOo2
+!i122 0
+R0
+Z8 8sdram_controller.vho
+Z9 Fsdram_controller.vho
+l0
+L35 1
+VH73DDHU2ac^:D?]T;@N=M3
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+Z10 OV;C;2020.1;71
+31
+Z11 !s110 1627654042
+!i10b 1
+Z12 !s108 1627654042.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|sdram_controller.vho|
+!s107 sdram_controller.vho|
+!i113 1
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 H73DDHU2ac^:D?]T;@N=M3
+!i122 0
+l76
+L54 28
+V:9n9ma92JRcO^oG6nb?k`2
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R10
+31
+R11
+!i10b 1
+R12
+R13
+Z16 !s107 sdram_controller.vho|
+!i113 1
+R14
+R15
+Esdram_controller
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 0
+R0
+R8
+R9
+l0
+L89 1
+V4H`3S:HbhV`lOQb3Iod_e3
+!s100 KBZe:SEbi<=MA`XCfW?m41
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R16
+!i113 1
+R14
+R15
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 sdram_controller 0 22 4H`3S:HbhV`lOQb3Iod_e3
+!i122 0
+l267
+L170 974
+VTUDZP<;iDZ^3CL0aWR3i_0
+!s100 jKW@=M]_C_99039=78zGM1
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R16
+!i113 1
+R14
+R15

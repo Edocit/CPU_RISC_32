@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Jul 26 18:13:19 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : vga_video_card
+Top-level Entity Name : VGA_VIDEO_CARD
+Family : MAX 10
+Total logic elements : 163
+    Total combinational functions : 163
+    Dedicated logic registers : 100
+Total registers : 100
+Total pins : 21
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

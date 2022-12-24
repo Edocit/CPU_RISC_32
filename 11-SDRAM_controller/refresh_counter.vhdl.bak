@@ -1,0 +1,33 @@
+
+
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+
+
+ENTITY REFRESH_COUNTER IS 
+	PORT ( en    : IN STD_LOGIC;
+	       clk   : IN STD_LOGIC;
+			 cnt_v : OUT STD_LOGIC_VECTOR(12 DOWNTO 0)
+	);
+END REFRESH_COUNTER;
+
+
+
+ARCHITECTURE BHV OF REFRESH_COUNTER IS 
+	SIGNAL internal_cnt : STD_LOGIC_VECTOR(12 DOWNTO 0) := (OTHERS => '0');
+	
+	
+	refresh_pr : PROCESS(clk)
+	BEGIN
+		IF(en = '1') THEN 
+			IF(rising_edge(clk)) THEN 
+				internal_cnt <= internal_cnt + 1;
+			END IF;
+		END IF;
+	END PROCESS;
+	
+	cnt_v <= internal_cnt;
+
+END BHV;

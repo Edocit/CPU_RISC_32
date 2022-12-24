@@ -1,0 +1,71 @@
+# Compile of refresh_counter.vhdl was successful.
+# Compile of sdram_controller.vhdl was successful.
+# Compile of sdram_controller_tb.vhdl was successful.
+# 3 compiles, 0 failed with no errors.
+vsim dram_ctrl.sdram_controller_tb
+# vsim dram_ctrl.sdram_controller_tb 
+# Start time: 15:37:57 on Jul 30,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading dram_ctrl.sdram_controller_tb(bhv)
+# Loading dram_ctrl.sdram_controller(bhv)
+# Loading ieee.numeric_std(body)
+# Loading dram_ctrl.refresh_counter(bhv)
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/clk_en has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/n_cs has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/n_ras has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/n_cas has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/n_we has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/data_out(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+add wave -position end sim:/sdram_controller_tb/*
+add wave -position end sim:/sdram_controller_tb/SDRAM_CTRL/*
+add wave -position end sim:/sdram_controller_tb/SDRAM_CTRL/REF_CNT/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 1 sim:/sdram_controller_tb/d_PROCESS/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/clk_en has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/n_cs has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/n_ras has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/n_cas has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/n_we has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sdram_controller_tb/SDRAM_CTRL/data_out(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end sim:/sdram_controller_tb/*
+quit -sim
+# End time: 15:42:34 on Jul 30,2021, Elapsed time: 0:04:37
+# Errors: 0, Warnings: 7
+# Compile of refresh_counter.vhdl was successful.
+# Compile of sdram_controller.vhdl was successful.
+# Compile of sdram_controller_tb.vhdl was successful.
+# 3 compiles, 0 failed with no errors.

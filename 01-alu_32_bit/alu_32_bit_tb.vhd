@@ -20,6 +20,7 @@ ARCHITECTURE BHV OF ALU_32_BIT_TB IS
     -- Testbench SIGNALS																							   --    
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	SIGNAL clock_tb        : STD_LOGIC := '0';                                    -- CLOCK SIGNAL, INTIALIZED TO '0'                                             						   --
+	SIGNAL clock2_tb       : STD_LOGIC := '0';	
 	SIGNAL reset_tb        : STD_LOGIC := '1';                                    -- RESET SIGNAL ACTIVE HIGH												   --
 	SIGNAL a_tb  			  : STD_LOGIC_VECTOR(31 DOWNTO 0) := ( others => '0' ); 			
 	SIGNAL b_tb  			  : STD_LOGIC_VECTOR(31 DOWNTO 0) := ( others => '0' ); 			--
@@ -35,8 +36,6 @@ ARCHITECTURE BHV OF ALU_32_BIT_TB IS
 	--COMPONENTS
 	COMPONENT ALU_32_BIT IS
 		PORT(	en     : IN  STD_LOGIC;
-				rst    : IN  STD_LOGIC;
-				clk    : IN  STD_LOGIC;
 				op_sel : IN  STD_LOGIC_VECTOR( 4 DOWNTO 0);
 				RA     : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
 				RB     : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
@@ -47,15 +46,14 @@ END COMPONENT;
 	
 	
 	BEGIN 																					   --
-	  clock_tb <= (NOT(clock_tb) AND end_sim) AFTER T_CLK / 2;     -- THE CLOCK TOGGLES AFTER T_CLK / 2 WHEN END_SIM IS HIGH. WHEN END_SIM IS FORCED LOW, THE CLOCK STOPS TOGGLING AND THE SIMULATION ENDS     --
-	  reset_tb <= '0' AFTER T_RESET;                               -- DEASSERTING THE RESET AFTER T_RESET NANOSECODS                                                                                           --
+	  clock_tb  <= (NOT(clock_tb) AND end_sim) AFTER T_CLK / 2;     -- THE CLOCK TOGGLES AFTER T_CLK / 2 WHEN END_SIM IS HIGH. WHEN END_SIM IS FORCED LOW, THE CLOCK STOPS TOGGLING AND THE SIMULATION ENDS     --
+	  clock2_tb <= (NOT(clock_tb) AND end_sim) AFTER T_CLK / 4; 
+	  reset_tb  <= '0' AFTER T_RESET;                               -- DEASSERTING THE RESET AFTER T_RESET NANOSECODS                                                                                           --
  	
 		
 	  ALU : ALU_32_BIT
 		PORT MAP(
 			en  => en_tb,
-			rst => reset_tb,
-			clk => clock_tb,
 			op_sel => op_sel_tb,
 			RA => a_tb,
 			RB => b_tb,
@@ -64,7 +62,7 @@ END COMPONENT;
 		);
 		
 
-	d_PROCESS: PROCESS(clock_tb, reset_tb)         
+	d_PROCESS: PROCESS(clock_tb, clock2_tb, reset_tb)         
 	  VARIABLE t : INTEGER := 0;         
 
 	  BEGIN																							
@@ -72,10 +70,15 @@ END COMPONENT;
 		  t := 0;   																						
 		ELSIF(rising_edge(clock_tb)) THEN     
 		  CASE(t) IS   
-				WHEN 1  => op_sel_tb <= "00000"; a_tb <= "11111111111111111111111111111111";   b_tb <= "00000000000000000000000000000001"; 
-				WHEN 5  => op_sel_tb <= "00001"; a_tb <= "11111111111111111111111111111111"; b_tb <= "00000000000000000000000000000001"; 		 		
-				WHEN 10  => op_sel_tb <= "00000"; a_tb <= "00000000000000000000000000000011";  b_tb <= "00000000000000000000000000000110"; 
-				WHEN 15  => op_sel_tb <= "00100"; a_tb <= "11111111111111110000000000000000";
+				WHEN OTHERS => NULL;                                            --
+		  END CASE;
+		  
+		ELSIF(rising_edge(clock2_tb)) then
+			CASE(t) IS    
+				WHEN 1  => op_sel_tb <= "00000"; a_tb <= "11111111111111111111111111111111"; b_tb <= "00000000000000000000000000000001"; 
+				WHEN 3  => op_sel_tb <= "00001"; a_tb <= "11111111111111111111111111111111"; b_tb <= "00000000000000000000000000000001"; 		 		
+				WHEN 5  => op_sel_tb <= "00000"; a_tb <= "00000000000000000000000000000011"; b_tb <= "00000000000000000000000000000110"; 
+				WHEN 7  => op_sel_tb <= "00100"; a_tb <= "11111111111111110000000000000000";
 				WHEN OTHERS => NULL;                                            --
 		  END CASE;
 		  

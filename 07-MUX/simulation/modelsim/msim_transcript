@@ -1,0 +1,61 @@
+vsim -i -l msim_transcript mux.mux_tb
+# vsim -i -l msim_transcript mux.mux_tb 
+# Start time: 11:49:13 on Jul 05,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading mux.mux_tb(bhv)
+# Loading mux.mux(bhv)
+add wave -position end sim:/mux_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end sim:/mux_tb/MUX_2/*
+# Compile of MUX.vhdl was successful.
+# Compile of MUX_TB.vhdl was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading mux.mux_tb(bhv)
+# Loading mux.mux(bhv)
+run
+run
+run
+run
+run
+run
+# Compile of MUX.vhdl was successful.
+# Compile of MUX_TB.vhdl was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading mux.mux_tb(bhv)
+# Loading mux.mux(bhv)
+run
+run
+run
+run
+run
+run
+# Compile of MUX.vhdl was successful.
+# Compile of MUX_TB.vhdl was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading mux.mux_tb(bhv)
+# Loading mux.mux(bhv)
+run
+run
+run
+run
+run
+run
+# End time: 12:00:43 on Jul 05,2021, Elapsed time: 0:11:30
+# Errors: 0, Warnings: 1

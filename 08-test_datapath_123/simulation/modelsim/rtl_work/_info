@@ -1,0 +1,230 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim
+Edatapath_123
+Z1 w1626713792
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R0
+Z7 8/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123.vhdl
+Z8 F/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123.vhdl
+l0
+L8 1
+Vo1agQHGM8QffOm@Z8?can2
+!s100 M4D>H@NJ?Jb_4:F^=1LPz3
+Z9 OV;C;2020.1;71
+31
+Z10 !s110 1626714621
+!i10b 1
+Z11 !s108 1626714621.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123.vhdl|
+!s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123.vhdl|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 datapath_123 0 22 o1agQHGM8QffOm@Z8?can2
+!i122 4
+l107
+L34 82
+V`M8aI7DTKORW:[Iz6z=RZ0
+!s100 ;AVzMkVARUzd5YG`>7PGL3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+Z15 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123.vhdl|
+!i113 1
+R13
+R14
+Eprogram_counter_32_bit
+Z16 w1624979771
+R2
+R3
+R5
+R6
+!i122 1
+R0
+Z17 8/home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl
+Z18 F/home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl
+l0
+L8 1
+V]XM6><?E];2L@`3DfF8mh2
+!s100 jO_j0o>@zZNAHI912cJF90
+R9
+31
+R10
+!i10b 1
+R11
+Z19 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl|
+Z20 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl|
+!i113 1
+R13
+R14
+Abhv
+R2
+R3
+R5
+R6
+DEx4 work 22 program_counter_32_bit 0 22 ]XM6><?E];2L@`3DfF8mh2
+!i122 1
+l23
+L20 21
+V<lV=3@c@ib>jaNMKl4^VR1
+!s100 <@S22Fg1PGj5S1V2DM]Lz3
+R9
+31
+R10
+!i10b 1
+R11
+R19
+R20
+!i113 1
+R13
+R14
+Eram
+Z21 w1626714512
+R4
+R5
+R6
+!i122 2
+R0
+Z22 8/home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl
+Z23 F/home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl
+l0
+L8 1
+VAYgb>85lOz]cW]CKFoKeH3
+!s100 L_5zmLJIzTXbeUlJiz;0N2
+R9
+31
+R10
+!i10b 1
+R11
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl|
+Z25 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl|
+!i113 1
+R13
+R14
+Abhv
+R4
+R5
+R6
+DEx4 work 3 ram 0 22 AYgb>85lOz]cW]CKFoKeH3
+!i122 2
+l30
+L21 43
+V4_9k6K_jWP6Y9;n`R_2<=2
+!s100 i5:FFLjO5749L0_he^3Ub0
+R9
+31
+R10
+!i10b 1
+R11
+R24
+R25
+!i113 1
+R13
+R14
+Eregister32
+Z26 w1624462431
+R5
+R6
+!i122 0
+R0
+Z27 8/home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd
+Z28 F/home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd
+l0
+L7 1
+VIh3f<VSZ9<SzTzE0Z232l2
+!s100 DY^>b7gfof3n0e=gJ0@^b0
+R9
+31
+R10
+!i10b 1
+R11
+Z29 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd|
+Z30 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd|
+!i113 1
+R13
+R14
+Abhv
+R5
+R6
+DEx4 work 10 register32 0 22 Ih3f<VSZ9<SzTzE0Z232l2
+!i122 0
+l20
+L17 14
+VFXgEV[QO?n[i1g5f3`13[2
+!s100 k_lb5A5aACXU63CR4;[3=3
+R9
+31
+R10
+!i10b 1
+R11
+R29
+R30
+!i113 1
+R13
+R14
+Eregister_file
+Z31 w1626714572
+R4
+R5
+R6
+!i122 3
+R0
+Z32 8/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+Z33 F/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+l0
+L9 1
+V<M^^1:N>fTj^gJA<Vh74a1
+!s100 ASaL;9YUPh<CjEB?jYj>P1
+R9
+31
+R10
+!i10b 1
+R11
+Z34 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl|
+Z35 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl|
+!i113 1
+R13
+R14
+Abeh
+R4
+R5
+R6
+DEx4 work 13 register_file 0 22 <M^^1:N>fTj^gJA<Vh74a1
+!i122 3
+l31
+L24 31
+VNYhen@8nDEhB093lRbjX[3
+!s100 7oR23zG@o`cad4XoXg4[:0
+R9
+31
+R10
+!i10b 1
+R11
+R34
+R35
+!i113 1
+R13
+R14

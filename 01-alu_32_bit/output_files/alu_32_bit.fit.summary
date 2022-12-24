@@ -1,15 +1,15 @@
-Fitter Status : Successful - Fri Jun 18 17:34:00 2021
+Fitter Status : Successful - Mon Jul  5 20:35:29 2021
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : alu_32_bit
 Top-level Entity Name : ALU_32_BIT
 Family : MAX 10
 Device : 10M16DCF484C7G
 Timing Models : Final
-Total logic elements : 305 / 15,840 ( 2 % )
-    Total combinational functions : 304 / 15,840 ( 2 % )
-    Dedicated logic registers : 34 / 15,840 ( < 1 % )
-Total registers : 34
-Total pins : 112 / 320 ( 35 % )
+Total logic elements : 476 / 15,840 ( 3 % )
+    Total combinational functions : 476 / 15,840 ( 3 % )
+    Dedicated logic registers : 0 / 15,840 ( 0 % )
+Total registers : 0
+Total pins : 110 / 320 ( 34 % )
 Total virtual pins : 0
 Total memory bits : 0 / 562,176 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 90 ( 0 % )

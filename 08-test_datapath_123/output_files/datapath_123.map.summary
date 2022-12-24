@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Jul 23 12:11:41 2021
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : datapath_123
+Top-level Entity Name : DATAPATH_123
+Family : MAX 10
+Total logic elements : 4,475
+    Total combinational functions : 3,694
+    Dedicated logic registers : 891
+Total registers : 891
+Total pins : 55
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

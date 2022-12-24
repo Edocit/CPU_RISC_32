@@ -20,7 +20,8 @@ ARCHITECTURE BHV OF ALU_32_BIT_TB IS
     -- Testbench SIGNALS																							   --    
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	SIGNAL clock_tb        : STD_LOGIC := '0';                                    -- CLOCK SIGNAL, INTIALIZED TO '0'                                             						   --
-	SIGNAL reset_tb        : STD_LOGIC := '1';                                    -- RESET SIGNAL ACTIVE HIGH												   --
+SIGNAL clock2_tb        : STD_LOGIC := '0';	
+SIGNAL reset_tb        : STD_LOGIC := '1';                                    -- RESET SIGNAL ACTIVE HIGH												   --
 	SIGNAL a_tb  			  : STD_LOGIC_VECTOR(31 DOWNTO 0) := ( others => '0' ); 			
 	SIGNAL b_tb  			  : STD_LOGIC_VECTOR(31 DOWNTO 0) := ( others => '0' ); 			--
    SIGNAL rz_tb           : STD_LOGIC_VECTOR(31 DOWNTO 0);   
@@ -47,8 +48,9 @@ END COMPONENT;
 	
 	
 	BEGIN 																					   --
-	  clock_tb <= (NOT(clock_tb) AND end_sim) AFTER T_CLK / 2;     -- THE CLOCK TOGGLES AFTER T_CLK / 2 WHEN END_SIM IS HIGH. WHEN END_SIM IS FORCED LOW, THE CLOCK STOPS TOGGLING AND THE SIMULATION ENDS     --
-	  reset_tb <= '0' AFTER T_RESET;                               -- DEASSERTING THE RESET AFTER T_RESET NANOSECODS                                                                                           --
+	  clock_tb  <= (NOT(clock_tb) AND end_sim) AFTER T_CLK / 2;     -- THE CLOCK TOGGLES AFTER T_CLK / 2 WHEN END_SIM IS HIGH. WHEN END_SIM IS FORCED LOW, THE CLOCK STOPS TOGGLING AND THE SIMULATION ENDS     --
+	  clock2_tb <= (NOT(clock_tb) AND end_sim) AFTER T_CLK / 4; 
+	  reset_tb  <= '0' AFTER T_RESET;                               -- DEASSERTING THE RESET AFTER T_RESET NANOSECODS                                                                                           --
  	
 		
 	  ALU : ALU_32_BIT
@@ -72,9 +74,14 @@ END COMPONENT;
 		  t := 0;   																						
 		ELSIF(rising_edge(clock_tb)) THEN     
 		  CASE(t) IS   
+				WHEN OTHERS => NULL;                                            --
+		  END CASE;
+		  
+		ELSIF(rising_edge(clock2_tb)) then
+			CASE(t) IS    
 				WHEN 1  => op_sel_tb <= "00000"; a_tb <= "11111111111111111111111111111111";   b_tb <= "00000000000000000000000000000001"; 
-				--WHEN 5  => op_sel_tb <= "00001"; a_tb <= "11111111111111111111111111111111"; b_tb <= "00000000000000000000000000000001"; 		 		
-				WHEN 5  => op_sel_tb <= "00000"; a_tb <= "00000000000000000000000000000011";  b_tb <= "00000000000000000000000000000110"; 
+				WHEN 5  => op_sel_tb <= "00001"; a_tb <= "11111111111111111111111111111111"; b_tb <= "00000000000000000000000000000001"; 		 		
+				WHEN 10  => op_sel_tb <= "00000"; a_tb <= "00000000000000000000000000000011";  b_tb <= "00000000000000000000000000000110"; 
 				WHEN 15  => op_sel_tb <= "00100"; a_tb <= "11111111111111110000000000000000";
 				WHEN OTHERS => NULL;                                            --
 		  END CASE;

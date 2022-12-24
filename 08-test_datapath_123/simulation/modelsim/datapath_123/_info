@@ -1,0 +1,328 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim
+Edatapath_123
+Z1 w1626715890
+Z2 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 ]LY<>e3?`4Wb8dl1GV_X90
+Z3 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 `f]nQdYHZLbCG_>oYeZOo2
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 86
+R0
+Z10 8/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+Z11 F/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+l0
+L91 1
+VzSReWenO<V7FHmaFX<:<<3
+!s100 3;B<hkX9X1z=9=dinBWL61
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1626715902
+!i10b 1
+Z14 !s108 1626715902.000000
+Z15 !s90 -reportprogress|300|-work|datapath_123|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho|
+Z16 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho|
+!i113 1
+Z17 o-work datapath_123 -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 12 datapath_123 0 22 zSReWenO<V7FHmaFX<:<<3
+!i122 86
+l595
+L228 6491
+VZ8XKje>?jU6QgPEQLMhL`2
+!s100 5W3e;Z0G>>lI4;cVMRSZc3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Edatapath_123_tb
+Z19 w1626715249
+Z20 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R7
+R8
+!i122 85
+R0
+Z21 8/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl
+Z22 F/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl
+l0
+L9 1
+V4bAEE7;@=I?MlQVmRn@IL2
+!s100 7>0lT5PPTodgAO^z;n?790
+R12
+32
+R13
+!i10b 1
+R14
+Z23 !s90 -reportprogress|300|-work|datapath_123|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl|
+Z24 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl|
+!i113 1
+R17
+R18
+Abhv
+R20
+R7
+R8
+DEx4 work 15 datapath_123_tb 0 22 4bAEE7;@=I?MlQVmRn@IL2
+!i122 85
+l82
+L13 143
+VKEMUY_h4NRAofPka3EkQ[2
+!s100 UHD>>5lUD>:ZL@Y=>@Y7_0
+R12
+32
+R13
+!i10b 1
+R14
+R23
+R24
+!i113 1
+R17
+R18
+Ehard_block
+R1
+R4
+R2
+R6
+R7
+R8
+R3
+!i122 86
+R0
+R10
+R11
+l0
+L35 1
+VeiU2WU_B8fedkeamGOk>N0
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R2
+R6
+R7
+R8
+R3
+DEx4 work 10 hard_block 0 22 eiU2WU_B8fedkeamGOk>N0
+!i122 86
+l76
+L54 28
+Vh?ak9AB1=W@[kljPng;`E3
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eprogram_counter_32_bit
+Z25 w1624979771
+Z26 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z27 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R7
+R8
+!i122 87
+R0
+Z28 8/home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl
+Z29 F/home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl
+l0
+L8 1
+Vf@z=4aeSa;1fH<hFQIIe71
+!s100 jO_j0o>@zZNAHI912cJF90
+R12
+32
+R13
+!i10b 1
+R14
+Z30 !s90 -reportprogress|300|-work|datapath_123|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl|
+Z31 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl|
+!i113 1
+R17
+R18
+Abhv
+R26
+R27
+R7
+R8
+DEx4 work 22 program_counter_32_bit 0 22 f@z=4aeSa;1fH<hFQIIe71
+!i122 87
+l23
+L20 21
+VI36ZVAXlOc6A?TkfP4Dz73
+!s100 <@S22Fg1PGj5S1V2DM]Lz3
+R12
+32
+R13
+!i10b 1
+R14
+R30
+R31
+!i113 1
+R17
+R18
+Eram
+Z32 w1626714512
+Z33 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R7
+R8
+!i122 88
+R0
+Z34 8/home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl
+Z35 F/home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl
+l0
+L8 1
+V<9aP<ZUB>f?Cf82fmjDP[1
+!s100 L_5zmLJIzTXbeUlJiz;0N2
+R12
+32
+R13
+!i10b 1
+R14
+Z36 !s90 -reportprogress|300|-work|datapath_123|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl|
+Z37 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl|
+!i113 1
+R17
+R18
+Abhv
+R33
+R7
+R8
+DEx4 work 3 ram 0 22 <9aP<ZUB>f?Cf82fmjDP[1
+!i122 88
+l30
+L21 43
+VClKfEdZAJ2N<o2<G@iO>:2
+!s100 i5:FFLjO5749L0_he^3Ub0
+R12
+32
+R13
+!i10b 1
+R14
+R36
+R37
+!i113 1
+R17
+R18
+Eregister32
+Z38 w1624462431
+R7
+R8
+!i122 89
+R0
+Z39 8/home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd
+Z40 F/home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd
+l0
+L7 1
+VWjl0b0^9ff==26LOoY=Ka1
+!s100 DY^>b7gfof3n0e=gJ0@^b0
+R12
+32
+R13
+!i10b 1
+R14
+Z41 !s90 -reportprogress|300|-work|datapath_123|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd|
+Z42 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd|
+!i113 1
+R17
+R18
+Abhv
+R7
+R8
+DEx4 work 10 register32 0 22 Wjl0b0^9ff==26LOoY=Ka1
+!i122 89
+l20
+L17 14
+Vz[7=hdk_J95gF@k_?DDRa2
+!s100 k_lb5A5aACXU63CR4;[3=3
+R12
+32
+R13
+!i10b 1
+R14
+R41
+R42
+!i113 1
+R17
+R18
+Eregister_file
+Z43 w1626715850
+R33
+R7
+R8
+!i122 90
+R0
+Z44 8/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+Z45 F/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+l0
+L9 1
+VLTA=<aN9NG4zP^_DJ1hSA0
+!s100 ASaL;9YUPh<CjEB?jYj>P1
+R12
+32
+R13
+!i10b 1
+R14
+Z46 !s90 -reportprogress|300|-work|datapath_123|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl|
+Z47 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl|
+!i113 1
+R17
+R18
+Abeh
+R33
+R7
+R8
+Z48 DEx4 work 13 register_file 0 22 LTA=<aN9NG4zP^_DJ1hSA0
+!i122 90
+l31
+Z49 L24 31
+V<lYmBB5<H8]P<2ga9aHZl3
+!s100 cbl_:hi?zb_k[Bn4Y2g2C3
+R12
+32
+R13
+!i10b 1
+R14
+R46
+R47
+!i113 1
+R17
+R18

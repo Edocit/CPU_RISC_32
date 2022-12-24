@@ -1,0 +1,560 @@
+# do datapath_123_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/edocit/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:21 on Jul 19,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity REGISTER32
+# -- Compiling architecture BHV of REGISTER32
+# End time: 19:10:21 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:21 on Jul 19,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity PROGRAM_COUNTER_32_BIT
+# -- Compiling architecture BHV of PROGRAM_COUNTER_32_BIT
+# End time: 19:10:21 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:21 on Jul 19,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture BHV of RAM
+# End time: 19:10:21 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:21 on Jul 19,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity REGISTER_FILE
+# -- Compiling architecture BEH of REGISTER_FILE
+# End time: 19:10:21 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:21 on Jul 19,2021
+# vcom -reportprogress 300 -93 -work work /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity DATAPATH_123
+# -- Compiling architecture BHV of DATAPATH_123
+# End time: 19:10:21 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:30 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity DATAPATH_123
+# -- Compiling architecture structure of DATAPATH_123
+# End time: 19:10:30 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:30 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Compiling entity DATAPATH_123_TB
+# -- Compiling architecture BHV of DATAPATH_123_TB
+# End time: 19:10:30 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:30 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity DATAPATH_123
+# -- Compiling architecture structure of DATAPATH_123
+# End time: 19:10:30 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:30 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity PROGRAM_COUNTER_32_BIT
+# -- Compiling architecture BHV of PROGRAM_COUNTER_32_BIT
+# End time: 19:10:30 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:30 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture BHV of RAM
+# End time: 19:10:30 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:30 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity REGISTER32
+# -- Compiling architecture BHV of REGISTER32
+# End time: 19:10:30 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:10:30 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity REGISTER_FILE
+# -- Compiling architecture BEH of REGISTER_FILE
+# End time: 19:10:30 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim datapath_123.datapath_123_tb
+# vsim datapath_123.datapath_123_tb 
+# Start time: 19:10:35 on Jul 19,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading datapath_123.datapath_123_tb(bhv)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
+# Loading fiftyfivenm.fiftyfivenm_components
+# Loading datapath_123.datapath_123(structure)
+# Loading datapath_123.hard_block(structure)
+# Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
+# Loading fiftyfivenm.fiftyfivenm_io_obuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_clkctrl(vital_clkctrl)
+# Loading fiftyfivenm.fiftyfivenm_ena_reg(behave)
+# Loading altera.dffeas(vital_dffeas)
+# Loading fiftyfivenm.fiftyfivenm_unvm(behavior)
+# Loading fiftyfivenm.fiftyfivenm_adcblock(behavior)
+# ** Warning: Design size of 48575 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position end sim:/datapath_123_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end {sim:/datapath_123_tb/DP_123/\pc_en~input\/*}
+add wave -position end {sim:/datapath_123_tb/DP_123/\PC|cnt[2]\/*}
+add wave -position end sim:/datapath_123_tb/d_PROCESS/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: Design size of 24528 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:15:50 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Compiling entity DATAPATH_123_TB
+# -- Compiling architecture BHV of DATAPATH_123_TB
+# End time: 19:15:50 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading datapath_123.datapath_123_tb(bhv)
+# ** Warning: Design size of 48580 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:20:56 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Compiling entity DATAPATH_123_TB
+# -- Compiling architecture BHV of DATAPATH_123_TB
+# End time: 19:20:56 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading datapath_123.datapath_123_tb(bhv)
+# ** Warning: Design size of 48580 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:01 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity DATAPATH_123
+# -- Compiling architecture structure of DATAPATH_123
+# End time: 19:27:01 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:01 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Compiling entity DATAPATH_123_TB
+# -- Compiling architecture BHV of DATAPATH_123_TB
+# End time: 19:27:01 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:01 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity DATAPATH_123
+# -- Compiling architecture structure of DATAPATH_123
+# End time: 19:27:01 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:01 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity PROGRAM_COUNTER_32_BIT
+# -- Compiling architecture BHV of PROGRAM_COUNTER_32_BIT
+# End time: 19:27:01 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:01 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture BHV of RAM
+# End time: 19:27:01 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:01 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity REGISTER32
+# -- Compiling architecture BHV of REGISTER32
+# End time: 19:27:01 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:27:01 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity REGISTER_FILE
+# -- Compiling architecture BEH of REGISTER_FILE
+# End time: 19:27:01 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading datapath_123.datapath_123_tb(bhv)
+# Loading datapath_123.datapath_123(structure)
+# Loading datapath_123.hard_block(structure)
+# ** Warning: Design size of 48575 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:42 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity DATAPATH_123
+# -- Compiling architecture structure of DATAPATH_123
+# End time: 19:31:42 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:42 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Compiling entity DATAPATH_123_TB
+# -- Compiling architecture BHV of DATAPATH_123_TB
+# End time: 19:31:42 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:42 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package fiftyfivenm_atom_pack
+# -- Loading package fiftyfivenm_components
+# -- Compiling entity hard_block
+# -- Compiling architecture structure of hard_block
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Compiling entity DATAPATH_123
+# -- Compiling architecture structure of DATAPATH_123
+# End time: 19:31:42 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:42 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity PROGRAM_COUNTER_32_BIT
+# -- Compiling architecture BHV of PROGRAM_COUNTER_32_BIT
+# End time: 19:31:42 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:42 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture BHV of RAM
+# End time: 19:31:42 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:42 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity REGISTER32
+# -- Compiling architecture BHV of REGISTER32
+# End time: 19:31:42 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:31:42 on Jul 19,2021
+# vcom -reportprogress 300 -work datapath_123 -2002 -explicit /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity REGISTER_FILE
+# -- Compiling architecture BEH of REGISTER_FILE
+# End time: 19:31:42 on Jul 19,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim datapath_123.datapath_123_tb
+# End time: 19:31:48 on Jul 19,2021, Elapsed time: 0:21:13
+# Errors: 0, Warnings: 1
+# vsim datapath_123.datapath_123_tb 
+# Start time: 19:31:48 on Jul 19,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading datapath_123.datapath_123_tb(bhv)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
+# Loading fiftyfivenm.fiftyfivenm_components
+# Loading datapath_123.datapath_123(structure)
+# Loading datapath_123.hard_block(structure)
+# Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
+# Loading fiftyfivenm.fiftyfivenm_io_obuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_clkctrl(vital_clkctrl)
+# Loading fiftyfivenm.fiftyfivenm_ena_reg(behave)
+# Loading altera.dffeas(vital_dffeas)
+# Loading fiftyfivenm.fiftyfivenm_unvm(behavior)
+# Loading fiftyfivenm.fiftyfivenm_adcblock(behavior)
+# ** Warning: Design size of 35785 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position end sim:/datapath_123_tb/*
+run
+run
+run
+add wave -position 3 sim:/datapath_123_tb/d_PROCESS/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: Design size of 18102 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 19:44:22 on Jul 19,2021, Elapsed time: 0:12:34
+# Errors: 0, Warnings: 1

@@ -1,0 +1,73 @@
+/home/edocit/Documenti/AUGC/CPU_RISC_32/01-alu_32_bit/alu_32_bit.vhd {1 {vcom -work datapath_123 -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/01-alu_32_bit/alu_32_bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU_32_BIT
+-- Compiling architecture BHV of ALU_32_BIT
+
+} {} {}} /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho {1 {vcom -work datapath_123 -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/simulation/modelsim/datapath_123.vho
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package fiftyfivenm_atom_pack
+-- Loading package fiftyfivenm_components
+-- Compiling entity hard_block
+-- Compiling architecture structure of hard_block
+-- Loading package dffeas_pack
+-- Loading package altera_primitives_components
+-- Compiling entity DATAPATH_123
+-- Compiling architecture structure of DATAPATH_123
+
+} {} {}} /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl {1 {vcom -work datapath_123 -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/03-RAM/RAM.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RAM
+-- Compiling architecture BHV of RAM
+
+} {} {}} /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl {1 {vcom -work datapath_123 -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/00-register_file/register_file.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity REGISTER_FILE
+-- Compiling architecture BEH of REGISTER_FILE
+
+} {} {}} /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl {1 {vcom -work datapath_123 -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/04-program_counter/program_counter_32_bit.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity PROGRAM_COUNTER_32_BIT
+-- Compiling architecture BHV of PROGRAM_COUNTER_32_BIT
+
+} {} {}} /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd {1 {vcom -work datapath_123 -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/05-Register/register32.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity REGISTER32
+-- Compiling architecture BHV of REGISTER32
+
+} {} {}} /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl {1 {vcom -work datapath_123 -2002 -explicit -stats=none /home/edocit/Documenti/AUGC/CPU_RISC_32/08-test_datapath_123/datapath_123_tb.vhdl
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Compiling entity DATAPATH_123_TB
+-- Compiling architecture BHV of DATAPATH_123_TB
+
+} {} {}}

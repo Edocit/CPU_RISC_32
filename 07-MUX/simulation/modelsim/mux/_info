@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/simulation/modelsim
+Emux
+Z1 w1625478435
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 20
+R0
+Z4 8/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl
+Z5 F/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl
+l0
+L8 1
+VBXV22WjQ2Xn90hOH78zAU1
+!s100 AhL2^BO3BU<iB?no@VI:c0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1625478986
+!i10b 1
+Z8 !s108 1625478986.000000
+Z9 !s90 -reportprogress|300|-work|mux|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl|
+Z10 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl|
+!i113 1
+Z11 o-work mux -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+DEx4 work 3 mux 0 22 BXV22WjQ2Xn90hOH78zAU1
+!i122 20
+l19
+L18 13
+V`0XK[eRReAA_lFm3i_SMQ0
+!s100 2F>UeWMPYODCH_jjieEdj3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emux_tb
+Z13 w1625478984
+Z14 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R2
+R3
+!i122 21
+R0
+Z15 8/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX_TB.vhdl
+Z16 F/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX_TB.vhdl
+l0
+L10 1
+Vl>TAV?`o^CIMN36;aU6TW0
+!s100 OBQV>>40?R3fl?jCQDR>;2
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|mux|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX_TB.vhdl|
+Z18 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX_TB.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R14
+R2
+R3
+Z19 DEx4 work 6 mux_tb 0 22 l>TAV?`o^CIMN36;aU6TW0
+!i122 21
+l50
+Z20 L14 73
+V6G7?m3Tn5<In?OE44mHJ;2
+!s100 6b]AQlIbVO33B^SOBgFSh0
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12

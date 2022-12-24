@@ -1,0 +1,16 @@
+
+State Machine - |SDRAM_CONTROLLER|state_to_pr
+Name state_to_pr.PRECHARGE state_to_pr.SECOND_RAS state_to_pr.FIRST_RAS state_to_pr.RW_STATE state_to_pr.RCD state_to_pr.ACTIVATE state_to_pr.REFRESH_STATE state_to_pr.IDLE state_to_pr.INIT_SECOND_REFRESH state_to_pr.INIT_MODE_REG state_to_pr.INIT_FIRST_REFRESH state_to_pr.INIT_PRECHARGE state_to_pr.INIT_STALL 
+state_to_pr.INIT_STALL 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_to_pr.INIT_PRECHARGE 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state_to_pr.INIT_FIRST_REFRESH 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_to_pr.INIT_MODE_REG 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state_to_pr.INIT_SECOND_REFRESH 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state_to_pr.IDLE 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state_to_pr.REFRESH_STATE 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state_to_pr.ACTIVATE 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state_to_pr.RCD 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state_to_pr.RW_STATE 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state_to_pr.FIRST_RAS 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state_to_pr.SECOND_RAS 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state_to_pr.PRECHARGE 1 0 0 0 0 0 0 0 0 0 0 0 1 

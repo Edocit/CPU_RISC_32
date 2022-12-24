@@ -1,0 +1,355 @@
+Analysis & Synthesis report for vga_video_card
+Mon Jul 26 18:13:19 2021
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Jul 26 18:13:19 2021       ;
+; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                      ; vga_video_card                              ;
+; Top-level Entity Name              ; VGA_VIDEO_CARD                              ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 163                                         ;
+;     Total combinational functions  ; 163                                         ;
+;     Dedicated logic registers      ; 100                                         ;
+; Total registers                    ; 100                                         ;
+; Total pins                         ; 21                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; 10M50DAF484C7G     ;                    ;
+; Top-level entity name                                            ; vga_video_card     ; vga_video_card     ;
+; Family name                                                      ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                  ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------+---------+
+; framebuffer.vhdl                 ; yes             ; User VHDL File  ; /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl    ;         ;
+; vga_controller.vhdl              ; yes             ; User VHDL File  ; /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_controller.vhdl ;         ;
+; vga_video_card.vhdl              ; yes             ; User VHDL File  ; /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl ;         ;
+; clk_div.vhdl                     ; yes             ; User VHDL File  ; /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/clk_div.vhdl        ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------+---------+
+
+
++----------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                    ;
++---------------------------------------------+------------------+
+; Resource                                    ; Usage            ;
++---------------------------------------------+------------------+
+; Estimated Total logic elements              ; 163              ;
+;                                             ;                  ;
+; Total combinational functions               ; 163              ;
+; Logic element usage by number of LUT inputs ;                  ;
+;     -- 4 input functions                    ; 53               ;
+;     -- 3 input functions                    ; 3                ;
+;     -- <=2 input functions                  ; 107              ;
+;                                             ;                  ;
+; Logic elements by mode                      ;                  ;
+;     -- normal mode                          ; 70               ;
+;     -- arithmetic mode                      ; 93               ;
+;                                             ;                  ;
+; Total registers                             ; 100              ;
+;     -- Dedicated logic registers            ; 100              ;
+;     -- I/O registers                        ; 0                ;
+;                                             ;                  ;
+; I/O pins                                    ; 21               ;
+;                                             ;                  ;
+; Embedded Multiplier 9-bit elements          ; 0                ;
+;                                             ;                  ;
+; Maximum fan-out node                        ; CLK_DIV:CD|int_o ;
+; Maximum fan-out                             ; 68               ;
+; Total fan-out                               ; 722              ;
+; Average fan-out                             ; 2.37             ;
++---------------------------------------------+------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                   ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------+----------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                 ; Entity Name    ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------+----------------+--------------+
+; |VGA_VIDEO_CARD            ; 163 (0)             ; 100 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 21   ; 0            ; 0          ; |VGA_VIDEO_CARD                     ; VGA_VIDEO_CARD ; work         ;
+;    |CLK_DIV:CD|            ; 45 (45)             ; 33 (33)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |VGA_VIDEO_CARD|CLK_DIV:CD          ; CLK_DIV        ; work         ;
+;    |VGA_CONTROLLER:CTRL|   ; 118 (118)           ; 67 (67)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |VGA_VIDEO_CARD|VGA_CONTROLLER:CTRL ; VGA_CONTROLLER ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-------------------------------------+----------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++---------------------------------------+----------------------------------------+
+; Register name                         ; Reason for Removal                     ;
++---------------------------------------+----------------------------------------+
+; FRAMEBUFFER:FB|dout[0]                ; Stuck at VCC due to stuck port data_in ;
+; FRAMEBUFFER:FB|dout[1,2]              ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 3 ;                                        ;
++---------------------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 100   ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 63    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |VGA_VIDEO_CARD|VGA_CONTROLLER:CTRL|v_cnt[16] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 21                          ;
+; cycloneiii_ff         ; 100                         ;
+;     ENA               ; 63                          ;
+;     plain             ; 37                          ;
+; cycloneiii_lcell_comb ; 165                         ;
+;     arith             ; 93                          ;
+;         2 data inputs ; 93                          ;
+;     normal            ; 72                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 11                          ;
+;         3 data inputs ; 3                           ;
+;         4 data inputs ; 53                          ;
+;                       ;                             ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 3.86                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Mon Jul 26 18:12:32 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vga_video_card -c vga_video_card
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file framebuffer.vhdl
+    Info (12022): Found design unit 1: FRAMEBUFFER-BHV File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl Line: 21
+    Info (12023): Found entity 1: FRAMEBUFFER File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file vga_controller.vhdl
+    Info (12022): Found design unit 1: VGA_CONTROLLER-BHV File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_controller.vhdl Line: 19
+    Info (12023): Found entity 1: VGA_CONTROLLER File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_controller.vhdl Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file vga_video_card.vhdl
+    Info (12022): Found design unit 1: VGA_VIDEO_CARD-BHV File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 21
+    Info (12023): Found entity 1: VGA_VIDEO_CARD File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file clk_div.vhdl
+    Info (12022): Found design unit 1: CLK_DIV-BHV File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/clk_div.vhdl Line: 17
+    Info (12023): Found entity 1: CLK_DIV File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/clk_div.vhdl Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file vga_video_card_tb.vhdl
+    Info (12022): Found design unit 1: VGA_VIDEO_CARD_TB-BHV File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card_tb.vhdl Line: 13
+    Info (12023): Found entity 1: VGA_VIDEO_CARD_TB File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card_tb.vhdl Line: 9
+Info (12127): Elaborating entity "vga_video_card" for the top level hierarchy
+Info (12128): Elaborating entity "CLK_DIV" for hierarchy "CLK_DIV:CD" File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 61
+Info (12128): Elaborating entity "FRAMEBUFFER" for hierarchy "FRAMEBUFFER:FB" File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 62
+Warning (10036): Verilog HDL or VHDL warning at framebuffer.vhdl(25): object "internal_we" assigned a value but never read File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl Line: 25
+Warning (10492): VHDL Process Statement warning at framebuffer.vhdl(34): signal "internal_en" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl Line: 34
+Info (12128): Elaborating entity "VGA_CONTROLLER" for hierarchy "VGA_CONTROLLER:CTRL" File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 63
+Warning (10492): VHDL Process Statement warning at vga_controller.vhdl(54): signal "en" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_controller.vhdl Line: 54
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "vga_out[4]" is stuck at GND File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 16
+    Warning (13410): Pin "vga_out[5]" is stuck at GND File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 16
+    Warning (13410): Pin "vga_out[6]" is stuck at GND File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 16
+    Warning (13410): Pin "vga_out[7]" is stuck at GND File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 16
+    Warning (13410): Pin "vga_out[8]" is stuck at GND File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 16
+    Warning (13410): Pin "vga_out[9]" is stuck at GND File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 16
+    Warning (13410): Pin "vga_out[10]" is stuck at GND File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 16
+    Warning (13410): Pin "vga_out[11]" is stuck at GND File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 16
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 5 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "fb_en" File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 9
+    Warning (15610): No output dependent on input pin "fb_we" File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 11
+    Warning (15610): No output dependent on input pin "fb_din[0]" File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 12
+    Warning (15610): No output dependent on input pin "fb_din[1]" File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 12
+    Warning (15610): No output dependent on input pin "fb_din[2]" File: /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl Line: 12
+Info (21057): Implemented 184 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 7 input pins
+    Info (21059): Implemented 14 output pins
+    Info (21061): Implemented 163 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 19 warnings
+    Info: Peak virtual memory: 442 megabytes
+    Info: Processing ended: Mon Jul 26 18:13:19 2021
+    Info: Elapsed time: 00:00:47
+    Info: Total CPU time (on all processors): 00:01:07
+
+

@@ -1,0 +1,141 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/simulation/modelsim
+Erefresh_counter
+Z1 w1627666520
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 39
+R0
+Z5 8/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl
+Z6 F/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl
+l0
+L9 1
+VgT8F=[K?kU;6WQL<Sfc=U3
+!s100 L>:j6^PXA^6E2h2oQbjWO0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1627668133
+!i10b 1
+Z9 !s108 1627668133.000000
+Z10 !s90 -reportprogress|300|-work|dram_ctrl|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl|
+Z11 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/refresh_counter.vhdl|
+!i113 1
+Z12 o-work dram_ctrl -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+DEx4 work 15 refresh_counter 0 22 gT8F=[K?kU;6WQL<Sfc=U3
+!i122 39
+l23
+L19 27
+V>kTIFzF2ECD]<OS@?5hRE3
+!s100 0MVM1QIe2fLB]IXSVH6RY1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esdram_controller
+Z14 w1627668081
+R2
+R3
+R4
+!i122 40
+R0
+Z15 8/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller.vhdl
+Z16 F/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller.vhdl
+l0
+L10 1
+VkSaJo7>fkd7oSQo[`0fGm1
+!s100 KW9QZVbn9fh77^5Qa[6W]2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|dram_ctrl|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller.vhdl|
+Z18 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller.vhdl|
+!i113 1
+R12
+R13
+Abhv
+R2
+R3
+R4
+DEx4 work 16 sdram_controller 0 22 kSaJo7>fkd7oSQo[`0fGm1
+!i122 40
+l56
+L36 38
+V>ZfcjCHm[0SY9o41MeoVD2
+!s100 H7l9Am^2cYhmoK_Bb=DA92
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Esdram_controller_tb
+Z19 w1627654006
+Z20 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R3
+R4
+!i122 41
+R0
+Z21 8/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller_tb.vhdl
+Z22 F/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller_tb.vhdl
+l0
+L9 1
+VF1`AIj0Deg>9g2=SSAFa02
+!s100 CSFmoK1@HQ^Zmi>[a3aTD1
+R7
+32
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-work|dram_ctrl|-2002|-explicit|/home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller_tb.vhdl|
+Z24 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/10-SDRAM_controller/sdram_controller_tb.vhdl|
+!i113 1
+R12
+R13
+Abhv
+R20
+R3
+R4
+Z25 DEx4 work 19 sdram_controller_tb 0 22 F1`AIj0Deg>9g2=SSAFa02
+!i122 41
+l81
+Z26 L13 115
+Z27 Vm<LhRDm;zcX1RfW6F6imh2
+Z28 !s100 U?2LD>3<i2gV>HQ61o9;e2
+R7
+32
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13

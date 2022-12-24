@@ -1,0 +1,112 @@
+# Compile of clk_div.vhdl was successful.
+# Compile of framebuffer.vhdl was successful.
+# Compile of vga_controller.vhdl was successful.
+# Compile of vga_video_card.vhdl was successful.
+# Compile of vga_video_card_tb.vhdl was successful.
+# 5 compiles, 0 failed with no errors.
+vsim vga.vga_video_card_tb
+# vsim vga.vga_video_card_tb 
+# Start time: 16:52:04 on Jul 26,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading vga.vga_video_card_tb(bhv)
+# Loading ieee.numeric_std(body)
+# Loading vga.vga_video_card(bhv)
+# Loading vga.clk_div(bhv)
+# Loading vga.framebuffer(bhv)
+# Loading vga.vga_controller(bhv)
+add wave -position end sim:/vga_video_card_tb/*
+add wave -position end sim:/vga_video_card_tb/VGA/CTRL/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 2  Instance: /vga_video_card_tb/VGA/FB
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:55:08 on Jul 26,2021, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 6

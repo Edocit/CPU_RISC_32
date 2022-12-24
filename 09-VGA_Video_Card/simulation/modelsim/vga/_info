@@ -1,0 +1,226 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/simulation/modelsim
+Eclk_div
+Z1 w1627290636
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/clk_div.vhdl
+Z6 F/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/clk_div.vhdl
+l0
+Z7 L10 1
+V9>DcBNGEzkGf^ITFQDD0]3
+!s100 EJPdiQ`?=o6J6f<kVITk?0
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1627311102
+!i10b 1
+Z10 !s108 1627311101.000000
+Z11 !s90 -reportprogress|300|-work|vga|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/clk_div.vhdl|
+Z12 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/clk_div.vhdl|
+!i113 1
+Z13 o-work vga -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+DEx4 work 7 clk_div 0 22 9>DcBNGEzkGf^ITFQDD0]3
+!i122 0
+l22
+L17 20
+Voim0bXoP5O<5DUiGcf[_`3
+!s100 jKGKJ53O3fmT44>zB5h`23
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eframebuffer
+Z15 w1627304334
+R2
+R3
+R4
+!i122 1
+R0
+Z16 8/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl
+Z17 F/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl
+l0
+R7
+VN5lFkKV5^UML_4;]T_f>T2
+!s100 `o]6DFgaY>Km8:90@7DJC0
+R8
+32
+R9
+!i10b 1
+Z18 !s108 1627311102.000000
+Z19 !s90 -reportprogress|300|-work|vga|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl|
+Z20 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/framebuffer.vhdl|
+!i113 1
+R13
+R14
+Abhv
+R2
+R3
+R4
+DEx4 work 11 framebuffer 0 22 N5lFkKV5^UML_4;]T_f>T2
+!i122 1
+l28
+L21 25
+V53akT@`=2O:QUMoKcM0aB3
+!s100 f7Gg=lEamKk<R@jVP`b082
+R8
+32
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Evga_controller
+Z21 w1627303640
+R2
+R3
+R4
+!i122 2
+R0
+Z22 8/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_controller.vhdl
+Z23 F/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_controller.vhdl
+l0
+L8 1
+V9@AUXM9Rh^z`BB2J7U=5b3
+!s100 [ZSK=hig9TM[`NZ=i[2]W0
+R8
+32
+R9
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|vga|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_controller.vhdl|
+Z25 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_controller.vhdl|
+!i113 1
+R13
+R14
+Abhv
+R2
+R3
+R4
+DEx4 work 14 vga_controller 0 22 9@AUXM9Rh^z`BB2J7U=5b3
+!i122 2
+l50
+L19 76
+VMNSWa33T@Kk>]?<R<CSXB1
+!s100 aAoZiQSLgPh2[UcT>W4d13
+R8
+32
+R9
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R13
+R14
+Evga_video_card
+Z26 w1627303639
+R2
+R3
+R4
+!i122 3
+R0
+Z27 8/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl
+Z28 F/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl
+l0
+L8 1
+VM3C5lW2Dm>8hgHW<PJ0AM3
+!s100 nS_YYfkAcWFR1:42UnX^]3
+R8
+32
+R9
+!i10b 1
+R18
+Z29 !s90 -reportprogress|300|-work|vga|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl|
+Z30 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card.vhdl|
+!i113 1
+R13
+R14
+Abhv
+R2
+R3
+R4
+DEx4 work 14 vga_video_card 0 22 M3C5lW2Dm>8hgHW<PJ0AM3
+!i122 3
+l57
+L21 63
+VT2UKo?_Ah[P][<@_WW;mK2
+!s100 ?hBGXWIiPZN@<PnP64G<41
+R8
+32
+R9
+!i10b 1
+R18
+R29
+R30
+!i113 1
+R13
+R14
+Evga_video_card_tb
+Z31 w1627231895
+Z32 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R3
+R4
+!i122 4
+R0
+Z33 8/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card_tb.vhdl
+Z34 F/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card_tb.vhdl
+l0
+L9 1
+Ve5E3LZdToVF8ElJ7z]4cn1
+!s100 8kgDdMJH8Wo?54X<=I5QK2
+R8
+32
+R9
+!i10b 1
+R18
+Z35 !s90 -reportprogress|300|-work|vga|-2002|-explicit|-stats=none|/home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card_tb.vhdl|
+!s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card_tb.vhdl|
+!i113 1
+R13
+R14
+Abhv
+R32
+R3
+R4
+DEx4 work 17 vga_video_card_tb 0 22 e5E3LZdToVF8ElJ7z]4cn1
+!i122 4
+l56
+L13 77
+VJD_nm;Ym?Ji2VVC4IZobj1
+!s100 KGh]VC`SGnEog3`_Y<iDe1
+R8
+32
+R9
+!i10b 1
+R18
+R35
+Z36 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/09-VGA_Video_Card/vga_video_card_tb.vhdl|
+!i113 1
+R13
+R14

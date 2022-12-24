@@ -1,0 +1,52 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/simulation/modelsim
+Emux
+Z1 w1625476870
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl
+Z5 F/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl
+l0
+L8 1
+VKkI4^eePVj]Nh[5I1_KaA2
+!s100 kj:SQYJ<:gA[`SNTMkzYI1
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1625478151
+!i10b 1
+Z8 !s108 1625478151.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl|
+!s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl|
+!i113 1
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+DEx4 work 3 mux 0 22 KkI4^eePVj]Nh[5I1_KaA2
+!i122 0
+l19
+L18 13
+VAA33D8g=SzA[>6WCej[M32
+!s100 O>1QOa`e1mM?:E]Wz:X0Z1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+Z12 !s107 /home/edocit/Documenti/AUGC/CPU_RISC_32/05-MUX/MUX.vhdl|
+!i113 1
+R10
+R11

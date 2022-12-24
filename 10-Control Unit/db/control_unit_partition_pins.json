@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pc_en",
+					"strict" : false
+				},
+				{
+					"name" : "mar_en",
+					"strict" : false
+				},
+				{
+					"name" : "mar_wr_en",
+					"strict" : false
+				},
+				{
+					"name" : "ir_en",
+					"strict" : false
+				},
+				{
+					"name" : "ir_wr_en",
+					"strict" : false
+				},
+				{
+					"name" : "ram_en",
+					"strict" : false
+				},
+				{
+					"name" : "reg_file_en",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "global_rst",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

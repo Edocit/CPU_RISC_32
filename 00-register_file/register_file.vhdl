@@ -26,21 +26,24 @@
 	  TYPE registerFile IS ARRAY(0 to 31) OF std_logic_vector(31 DOWNTO 0);
 	  SIGNAL registers : registerFile;
 	  
+
 	  
 			BEGIN
-					reg_process : process(clk)
+					reg_process : process(clk, A, B, C, RC)
 						BEGIN
 							
-							IF rising_edge(clk) AND rst = '1' THEN
+							IF rst = '1' THEN
 								registers <= (others=>(others=>'0'));
 								RA <= (OTHERS => '0');
 								RB <= (OTHERS => '0');
-								
-							ELSIF rising_edge(clk) AND en = '1' AND rw = '0' AND rst = '0' THEN
+																
+							ELSIF(en = '1' AND rw = '0' AND rst = '0') THEN
+															  registers(1) <= "00000000" & "00000000" & "00000000" & "00000100";
+	  registers(2) <= "00000000" & "00000000" & "00000000" & "00000010";
 									RA <= registers(to_integer(unsigned(A)));
 									RB <= registers(to_integer(unsigned(B)));
 									
-							ELSIF rising_edge(clk) AND en = '1' AND rw = '1' AND rst = '0' THEN
+							ELSIF(en = '1' AND rw = '1' AND rst = '0') THEN
 									registers(to_integer(unsigned(C))) <= RC;
 									RA <= (OTHERS => '0');
 									RB <= (OTHERS => '0');

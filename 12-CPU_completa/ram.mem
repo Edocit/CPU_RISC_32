@@ -1,0 +1,2 @@
+onerror resume
+add mem /cpu_tb/CPU_RSIC/RAM_M/memory -a hexadecimal -d hexadecimal

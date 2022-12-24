@@ -1,0 +1,8 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/cpu_tb/CPU_RSIC/RAM_M/memory
+// format=hex addressradix=h dataradix=h version=1.0 wordsperline=25
+ @0 00 02 20 00 40 02 00 00 XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX
+@19 XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX
+@32 XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX
+@4b XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX XX
+@64 XX 

@@ -1,0 +1,590 @@
+Timing Analyzer report for vga_video_card
+Mon Jul 26 18:13:34 2021
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Parallel Compilation
+  4. SDC File List
+  5. Clocks
+  6. Slow 1200mV 85C Model Fmax Summary
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Slow 1200mV 85C Model Metastability Summary
+ 13. Slow 1200mV 0C Model Fmax Summary
+ 14. Slow 1200mV 0C Model Setup Summary
+ 15. Slow 1200mV 0C Model Hold Summary
+ 16. Slow 1200mV 0C Model Recovery Summary
+ 17. Slow 1200mV 0C Model Removal Summary
+ 18. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 19. Slow 1200mV 0C Model Metastability Summary
+ 20. Fast 1200mV 0C Model Setup Summary
+ 21. Fast 1200mV 0C Model Hold Summary
+ 22. Fast 1200mV 0C Model Recovery Summary
+ 23. Fast 1200mV 0C Model Removal Summary
+ 24. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 25. Fast 1200mV 0C Model Metastability Summary
+ 26. Multicorner Timing Analysis Summary
+ 27. Board Trace Model Assignments
+ 28. Input Transition Times
+ 29. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 30. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 31. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 32. Setup Transfers
+ 33. Hold Transfers
+ 34. Report TCCS
+ 35. Report RSKM
+ 36. Unconstrained Paths Summary
+ 37. Clock Status Summary
+ 38. Unconstrained Input Ports
+ 39. Unconstrained Output Ports
+ 40. Unconstrained Input Ports
+ 41. Unconstrained Output Ports
+ 42. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                     ;
++-----------------------+-----------------------------------------------------+
+; Quartus Prime Version ; Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Timing Analyzer       ; Legacy Timing Analyzer                              ;
+; Revision Name         ; vga_video_card                                      ;
+; Device Family         ; MAX 10                                              ;
+; Device Name           ; 10M50DAF484C7G                                      ;
+; Timing Models         ; Final                                               ;
+; Delay Model           ; Combined                                            ;
+; Rise/Fall Delays      ; Enabled                                             ;
++-----------------------+-----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.11        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   3.8%      ;
+;     Processors 3-4         ;   3.7%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------+
+; SDC File List                                              ;
++------------------------+--------+--------------------------+
+; SDC File Path          ; Status ; Read at                  ;
++------------------------+--------+--------------------------+
+; vga_video_card.out.sdc ; OK     ; Mon Jul 26 18:13:33 2021 ;
++------------------------+--------+--------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                ;
++------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------+
+; Clock Name ; Type ; Period ; Frequency ; Rise  ; Fall   ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets       ;
++------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------+
+; clk_test   ; Base ; 40.000 ; 25.0 MHz  ; 0.000 ; 20.000 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { fb_px_clk } ;
++------------+------+--------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------------+
+
+
++--------------------------------------------------+
+; Slow 1200mV 85C Model Fmax Summary               ;
++------------+-----------------+------------+------+
+; Fmax       ; Restricted Fmax ; Clock Name ; Note ;
++------------+-----------------+------------+------+
+; 248.88 MHz ; 248.88 MHz      ; clk_test   ;      ;
++------------+-----------------+------------+------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++-------------------------------------+
+; Slow 1200mV 85C Model Setup Summary ;
++----------+--------+-----------------+
+; Clock    ; Slack  ; End Point TNS   ;
++----------+--------+-----------------+
+; clk_test ; 35.982 ; 0.000           ;
++----------+--------+-----------------+
+
+
++------------------------------------+
+; Slow 1200mV 85C Model Hold Summary ;
++----------+-------+-----------------+
+; Clock    ; Slack ; End Point TNS   ;
++----------+-------+-----------------+
+; clk_test ; 0.378 ; 0.000           ;
++----------+-------+-----------------+
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
++---------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
++----------+--------+-------------------------------+
+; Clock    ; Slack  ; End Point TNS                 ;
++----------+--------+-------------------------------+
+; clk_test ; 19.647 ; 0.000                         ;
++----------+--------+-------------------------------+
+
+
+-----------------------------------------------
+; Slow 1200mV 85C Model Metastability Summary ;
+-----------------------------------------------
+No synchronizer chains to report.
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Fmax Summary                                                                         ;
++------------+-----------------+------------+---------------------------------------------------------------+
+; Fmax       ; Restricted Fmax ; Clock Name ; Note                                                          ;
++------------+-----------------+------------+---------------------------------------------------------------+
+; 274.12 MHz ; 250.0 MHz       ; clk_test   ; limit due to minimum period restriction (max I/O toggle rate) ;
++------------+-----------------+------------+---------------------------------------------------------------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++------------------------------------+
+; Slow 1200mV 0C Model Setup Summary ;
++----------+--------+----------------+
+; Clock    ; Slack  ; End Point TNS  ;
++----------+--------+----------------+
+; clk_test ; 36.352 ; 0.000          ;
++----------+--------+----------------+
+
+
++-----------------------------------+
+; Slow 1200mV 0C Model Hold Summary ;
++----------+-------+----------------+
+; Clock    ; Slack ; End Point TNS  ;
++----------+-------+----------------+
+; clk_test ; 0.339 ; 0.000          ;
++----------+-------+----------------+
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
++----------+--------+------------------------------+
+; Clock    ; Slack  ; End Point TNS                ;
++----------+--------+------------------------------+
+; clk_test ; 19.654 ; 0.000                        ;
++----------+--------+------------------------------+
+
+
+----------------------------------------------
+; Slow 1200mV 0C Model Metastability Summary ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
++------------------------------------+
+; Fast 1200mV 0C Model Setup Summary ;
++----------+--------+----------------+
+; Clock    ; Slack  ; End Point TNS  ;
++----------+--------+----------------+
+; clk_test ; 37.966 ; 0.000          ;
++----------+--------+----------------+
+
+
++-----------------------------------+
+; Fast 1200mV 0C Model Hold Summary ;
++----------+-------+----------------+
+; Clock    ; Slack ; End Point TNS  ;
++----------+-------+----------------+
+; clk_test ; 0.166 ; 0.000          ;
++----------+-------+----------------+
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
++----------+--------+------------------------------+
+; Clock    ; Slack  ; End Point TNS                ;
++----------+--------+------------------------------+
+; clk_test ; 19.293 ; 0.000                        ;
++----------+--------+------------------------------+
+
+
+----------------------------------------------
+; Fast 1200mV 0C Model Metastability Summary ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
++------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                          ;
++------------------+--------+-------+----------+---------+---------------------+
+; Clock            ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+--------+-------+----------+---------+---------------------+
+; Worst-case Slack ; 35.982 ; 0.166 ; N/A      ; N/A     ; 19.293              ;
+;  clk_test        ; 35.982 ; 0.166 ; N/A      ; N/A     ; 19.293              ;
+; Design-wide TNS  ; 0.0    ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
+;  clk_test        ; 0.000  ; 0.000 ; N/A      ; N/A     ; 0.000               ;
++------------------+--------+-------+----------+---------+---------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                   ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin          ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; H_SYNCH      ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; V_SYNCH      ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[0]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[1]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[2]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[3]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[4]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[5]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[6]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[7]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[8]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[9]   ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[10]  ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; vga_out[11]  ; 3.3-V LVCMOS ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_TDO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++--------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++---------------------------------------------------------------------------------+
+; Input Transition Times                                                          ;
++---------------------+-----------------------+-----------------+-----------------+
+; Pin                 ; I/O Standard          ; 10-90 Rise Time ; 90-10 Fall Time ;
++---------------------+-----------------------+-----------------+-----------------+
+; fb_en               ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
+; fb_we               ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
+; fb_din[0]           ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
+; fb_din[1]           ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
+; fb_din[2]           ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
+; ctrl_en             ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
+; fb_px_clk           ; 3.3-V LVCMOS          ; 2640 ps         ; 2640 ps         ;
+; ~ALTERA_TMS~        ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_TCK~        ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_TDI~        ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_CONFIG_SEL~ ; 2.5 V                 ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_nCONFIG~    ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_nSTATUS~    ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_CONF_DONE~  ; 2.5 V Schmitt Trigger ; 2000 ps         ; 2000 ps         ;
++---------------------+-----------------------+-----------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; H_SYNCH      ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.196 V                              ; 0.235 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.196 V                             ; 0.235 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; V_SYNCH      ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.195 V                              ; 0.236 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.195 V                             ; 0.236 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[0]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.195 V                              ; 0.236 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.195 V                             ; 0.236 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[1]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.196 V                              ; 0.235 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.196 V                             ; 0.235 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[2]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.196 V                              ; 0.235 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.196 V                             ; 0.235 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[3]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.196 V                              ; 0.235 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.196 V                             ; 0.235 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[4]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.196 V                              ; 0.235 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.196 V                             ; 0.235 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[5]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.195 V                              ; 0.236 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.195 V                             ; 0.236 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[6]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.195 V                              ; 0.236 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.195 V                             ; 0.236 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[7]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.196 V                              ; 0.235 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.196 V                             ; 0.235 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[8]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.196 V                              ; 0.235 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.196 V                             ; 0.235 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[9]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.195 V                              ; 0.236 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.195 V                             ; 0.236 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[10]  ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.195 V                              ; 0.236 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.195 V                             ; 0.236 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; vga_out[11]  ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.61e-08 V                   ; 3.13 V              ; -0.043 V            ; 0.196 V                              ; 0.235 V                              ; 8.37e-10 s                  ; 8.32e-10 s                  ; No                         ; No                         ; 3.08 V                      ; 6.61e-08 V                  ; 3.13 V             ; -0.043 V           ; 0.196 V                             ; 0.235 V                             ; 8.37e-10 s                 ; 8.32e-10 s                 ; No                        ; No                        ;
+; ~ALTERA_TDO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.39e-08 V                   ; 2.39 V              ; -0.0407 V           ; 0.211 V                              ; 0.121 V                              ; 4.7e-10 s                   ; 5.93e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.39e-08 V                  ; 2.39 V             ; -0.0407 V          ; 0.211 V                             ; 0.121 V                             ; 4.7e-10 s                  ; 5.93e-10 s                 ; No                        ; Yes                       ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; H_SYNCH      ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.3 V                                ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.3 V                               ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; V_SYNCH      ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.298 V                              ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.298 V                             ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[0]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.298 V                              ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.298 V                             ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[1]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.3 V                                ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.3 V                               ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[2]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.3 V                                ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.3 V                               ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[3]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.3 V                                ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.3 V                               ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[4]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.3 V                                ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.3 V                               ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[5]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.298 V                              ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.298 V                             ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[6]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.298 V                              ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.298 V                             ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[7]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.3 V                                ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.3 V                               ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[8]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.3 V                                ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.3 V                               ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[9]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.298 V                              ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.298 V                             ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[10]  ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.298 V                              ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.298 V                             ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; vga_out[11]  ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.08 V                       ; 6.03e-06 V                   ; 3.11 V              ; -0.0202 V           ; 0.3 V                                ; 0.218 V                              ; 9.13e-10 s                  ; 1.02e-09 s                  ; Yes                        ; Yes                        ; 3.08 V                      ; 6.03e-06 V                  ; 3.11 V             ; -0.0202 V          ; 0.3 V                               ; 0.218 V                             ; 9.13e-10 s                 ; 1.02e-09 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_TDO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.97e-06 V                   ; 2.36 V              ; -0.0174 V           ; 0.144 V                              ; 0.094 V                              ; 6.44e-10 s                  ; 7.22e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.97e-06 V                  ; 2.36 V             ; -0.0174 V          ; 0.144 V                             ; 0.094 V                             ; 6.44e-10 s                 ; 7.22e-10 s                 ; No                        ; Yes                       ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin          ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; H_SYNCH      ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.251 V                              ; 6.54e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.251 V                             ; 6.54e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; V_SYNCH      ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.252 V                              ; 6.55e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.252 V                             ; 6.55e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[0]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.252 V                              ; 6.55e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.252 V                             ; 6.55e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[1]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.251 V                              ; 6.54e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.251 V                             ; 6.54e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[2]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.251 V                              ; 6.54e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.251 V                             ; 6.54e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[3]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.251 V                              ; 6.54e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.251 V                             ; 6.54e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[4]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.251 V                              ; 6.54e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.251 V                             ; 6.54e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[5]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.252 V                              ; 6.55e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.252 V                             ; 6.55e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[6]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.252 V                              ; 6.55e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.252 V                             ; 6.55e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[7]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.251 V                              ; 6.54e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.251 V                             ; 6.54e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[8]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.251 V                              ; 6.54e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.251 V                             ; 6.54e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[9]   ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.252 V                              ; 6.55e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.252 V                             ; 6.55e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[10]  ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.252 V                              ; 6.55e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.252 V                             ; 6.55e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; vga_out[11]  ; 3.3-V LVCMOS ; 0 s                 ; 0 s                 ; 3.46 V                       ; 8.93e-07 V                   ; 3.53 V              ; -0.0306 V           ; 0.247 V                              ; 0.251 V                              ; 6.54e-10 s                  ; 6.68e-10 s                  ; No                         ; Yes                        ; 3.46 V                      ; 8.93e-07 V                  ; 3.53 V             ; -0.0306 V          ; 0.247 V                             ; 0.251 V                             ; 6.54e-10 s                 ; 6.68e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_TDO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 1.68e-07 V                   ; 2.73 V              ; -0.0396 V           ; 0.362 V                              ; 0.108 V                              ; 3.11e-10 s                  ; 4.42e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 1.68e-07 V                  ; 2.73 V             ; -0.0396 V          ; 0.362 V                             ; 0.108 V                             ; 3.11e-10 s                 ; 4.42e-10 s                 ; No                        ; Yes                       ;
++--------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++-------------------------------------------------------------------+
+; Setup Transfers                                                   ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; clk_test   ; clk_test ; 593      ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Hold Transfers                                                    ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; clk_test   ; clk_test ; 593      ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths Summary                    ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 1     ; 1    ;
+; Unconstrained Input Ports       ; 1     ; 1    ;
+; Unconstrained Input Port Paths  ; 67    ; 67   ;
+; Unconstrained Output Ports      ; 6     ; 6    ;
+; Unconstrained Output Port Paths ; 6     ; 6    ;
++---------------------------------+-------+------+
+
+
++----------------------------------------------------+
+; Clock Status Summary                               ;
++------------------+----------+------+---------------+
+; Target           ; Clock    ; Type ; Status        ;
++------------------+----------+------+---------------+
+; CLK_DIV:CD|int_o ;          ; Base ; Unconstrained ;
+; fb_px_clk        ; clk_test ; Base ; Constrained   ;
++------------------+----------+------+---------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; ctrl_en    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; H_SYNCH     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; V_SYNCH     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; vga_out[0]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; vga_out[1]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; vga_out[2]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; vga_out[3]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Unconstrained Input Ports                                                                         ;
++------------+--------------------------------------------------------------------------------------+
+; Input Port ; Comment                                                                              ;
++------------+--------------------------------------------------------------------------------------+
+; ctrl_en    ; No input delay, min/max delays, false-path exceptions, or max skew assignments found ;
++------------+--------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Unconstrained Output Ports                                                                          ;
++-------------+---------------------------------------------------------------------------------------+
+; Output Port ; Comment                                                                               ;
++-------------+---------------------------------------------------------------------------------------+
+; H_SYNCH     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; V_SYNCH     ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; vga_out[0]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; vga_out[1]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; vga_out[2]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
+; vga_out[3]  ; No output delay, min/max delays, false-path exceptions, or max skew assignments found ;
++-------------+---------------------------------------------------------------------------------------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Mon Jul 26 18:13:32 2021
+Info: Command: quartus_sta vga_video_card -c vga_video_card
+Info: qsta_default_script.tcl version: #1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332104): Reading SDC File: 'vga_video_card.out.sdc'
+Warning (332060): Node: CLK_DIV:CD|int_o was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register VGA_CONTROLLER:CTRL|h_cnt[0] is being clocked by CLK_DIV:CD|int_o
+Critical Warning (332168): The following clock transfers have no clock uncertainty assignment. For more accurate results, apply clock uncertainty assignments or use the derive_clock_uncertainty command.
+    Critical Warning (332169): From clk_test (Rise) to clk_test (Rise) (setup and hold)
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1200mV 85C Model
+Info: Can't run Report Timing Closure Recommendations. The current device family is not supported.
+Info (332146): Worst-case setup slack is 35.982
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    35.982               0.000 clk_test 
+Info (332146): Worst-case hold slack is 0.378
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.378               0.000 clk_test 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 19.647
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    19.647               0.000 clk_test 
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Warning (332060): Node: CLK_DIV:CD|int_o was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register VGA_CONTROLLER:CTRL|h_cnt[0] is being clocked by CLK_DIV:CD|int_o
+Critical Warning (332168): The following clock transfers have no clock uncertainty assignment. For more accurate results, apply clock uncertainty assignments or use the derive_clock_uncertainty command.
+    Critical Warning (332169): From clk_test (Rise) to clk_test (Rise) (setup and hold)
+Info (332146): Worst-case setup slack is 36.352
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    36.352               0.000 clk_test 
+Info (332146): Worst-case hold slack is 0.339
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.339               0.000 clk_test 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 19.654
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    19.654               0.000 clk_test 
+Info: Analyzing Fast 1200mV 0C Model
+Warning (332060): Node: CLK_DIV:CD|int_o was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register VGA_CONTROLLER:CTRL|h_cnt[0] is being clocked by CLK_DIV:CD|int_o
+Critical Warning (332168): The following clock transfers have no clock uncertainty assignment. For more accurate results, apply clock uncertainty assignments or use the derive_clock_uncertainty command.
+    Critical Warning (332169): From clk_test (Rise) to clk_test (Rise) (setup and hold)
+Info (332146): Worst-case setup slack is 37.966
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    37.966               0.000 clk_test 
+Info (332146): Worst-case hold slack is 0.166
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.166               0.000 clk_test 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 19.293
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):    19.293               0.000 clk_test 
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 10 warnings
+    Info: Peak virtual memory: 502 megabytes
+    Info: Processing ended: Mon Jul 26 18:13:34 2021
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

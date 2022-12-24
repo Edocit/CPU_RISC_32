@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Fri Jun 18 17:33:49 2021
+Analysis & Synthesis Status : Successful - Mon Jul  5 20:35:15 2021
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : alu_32_bit
 Top-level Entity Name : ALU_32_BIT
 Family : MAX 10
-Total logic elements : 303
-    Total combinational functions : 303
-    Dedicated logic registers : 34
-Total registers : 34
-Total pins : 112
+Total logic elements : 475
+    Total combinational functions : 475
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 110
 Total virtual pins : 0
 Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0
